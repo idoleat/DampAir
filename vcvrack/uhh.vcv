@@ -85,7 +85,7 @@
         },
         {
           "id": 2,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 3,
@@ -97,7 +97,7 @@
         },
         {
           "id": 5,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 6,
@@ -109,7 +109,7 @@
         },
         {
           "id": 8,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 9,
@@ -121,7 +121,7 @@
         },
         {
           "id": 11,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 12,
@@ -129,7 +129,7 @@
         },
         {
           "id": 13,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 14,
@@ -743,7 +743,7 @@
         },
         {
           "id": 2,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 3,
@@ -755,7 +755,7 @@
         },
         {
           "id": 5,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 6,
@@ -767,7 +767,7 @@
         },
         {
           "id": 8,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 9,
@@ -1198,7 +1198,6 @@
         }
       ],
       "leftModuleId": 69,
-      "rightModuleId": 71,
       "data": {
         "t_deja_vu": true,
         "x_deja_vu": true,
@@ -1217,59 +1216,13 @@
       ]
     },
     {
-      "id": 71,
-      "plugin": "AudibleInstruments",
-      "version": "1.5.0",
-      "model": "Blinds",
-      "params": [
-        {
-          "id": 0,
-          "value": 0.0
-        },
-        {
-          "id": 1,
-          "value": 0.0
-        },
-        {
-          "id": 2,
-          "value": 0.0
-        },
-        {
-          "id": 3,
-          "value": 0.0
-        },
-        {
-          "id": 4,
-          "value": 0.0
-        },
-        {
-          "id": 5,
-          "value": 0.0
-        },
-        {
-          "id": 6,
-          "value": 0.0
-        },
-        {
-          "id": 7,
-          "value": 0.0
-        }
-      ],
-      "leftModuleId": 70,
-      "rightModuleId": 72,
-      "pos": [
-        52,
-        0
-      ]
-    },
-    {
       "id": 72,
       "plugin": "Core",
       "version": "1.1.6",
       "model": "Notes",
       "params": [],
-      "leftModuleId": 71,
-      "text": "Performance Controls:\n1. 4 modes of texture synth\n2. random sample parmater\n3. DaDaDa\n4. BusStation\n5. BusStation  pitch attn\n\nCan be more generative/random\nMRT Sample haven't used.\n\nFinal integration:\nmake some control interface to fade between them.",
+      "rightModuleId": 86,
+      "text": "Performance Controls:\n1. 4 modes of texture synth\n2. random sample parmater\n3. DaDaDa\n4. BusStation\n5. BusStation pitch attn\n6. Change polygene\n\nCan be more generative/random\nMRT Sample haven't used.Experiment connecting high freq LFO to everywhere more.\n\nFinal integration:\nmake some control interface to fade between them.",
       "pos": [
         64,
         0
@@ -1358,7 +1311,7 @@
         },
         {
           "id": 2,
-          "value": 0.256499946
+          "value": 0.673000395
         },
         {
           "id": 3,
@@ -1450,19 +1403,19 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 0.0795000196
         },
         {
           "id": 1,
-          "value": 0.0
+          "value": 0.718502045
         },
         {
           "id": 2,
-          "value": 0.5
+          "value": 0.732501268
         },
         {
           "id": 3,
-          "value": 0.5
+          "value": 0.785498738
         },
         {
           "id": 4,
@@ -1735,7 +1688,7 @@
         },
         {
           "id": 1,
-          "value": 0.0
+          "value": -1.0
         },
         {
           "id": 2,
@@ -1747,7 +1700,7 @@
         },
         {
           "id": 4,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 5,
@@ -1759,7 +1712,7 @@
         },
         {
           "id": 7,
-          "value": 0.0
+          "value": -1.0
         },
         {
           "id": 8,
@@ -1771,7 +1724,7 @@
         },
         {
           "id": 10,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 11,
@@ -1783,7 +1736,7 @@
         },
         {
           "id": 13,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 14,
@@ -1799,6 +1752,71 @@
       "pos": [
         83,
         1
+      ]
+    },
+    {
+      "id": 86,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "PlateVerb",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0735000074
+        },
+        {
+          "id": 1,
+          "value": 0.668002427
+        },
+        {
+          "id": 2,
+          "value": 0.14699997
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.764498353
+        },
+        {
+          "id": 8,
+          "value": 0.899999976
+        },
+        {
+          "id": 9,
+          "value": 0.898501217
+        },
+        {
+          "id": 10,
+          "value": 0.767498672
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 72,
+      "pos": [
+        80,
+        0
       ]
     }
   ],
@@ -1956,22 +1974,6 @@
       "color": "#0986ad"
     },
     {
-      "id": 194,
-      "outputModuleId": 44,
-      "outputId": 0,
-      "inputModuleId": 14,
-      "inputId": 0,
-      "color": "#c9b70e"
-    },
-    {
-      "id": 197,
-      "outputModuleId": 44,
-      "outputId": 0,
-      "inputModuleId": 35,
-      "inputId": 10,
-      "color": "#0986ad"
-    },
-    {
       "id": 135,
       "outputModuleId": 43,
       "outputId": 1,
@@ -2084,14 +2086,6 @@
       "color": "#0c8e15"
     },
     {
-      "id": 272,
-      "outputModuleId": 13,
-      "outputId": 0,
-      "inputModuleId": 81,
-      "inputId": 0,
-      "color": "#c91847"
-    },
-    {
       "id": 277,
       "outputModuleId": 48,
       "outputId": 0,
@@ -2186,6 +2180,70 @@
       "inputModuleId": 83,
       "inputId": 4,
       "color": "#0c8e15"
+    },
+    {
+      "id": 197,
+      "outputModuleId": 44,
+      "outputId": 0,
+      "inputModuleId": 35,
+      "inputId": 10,
+      "color": "#0986ad"
+    },
+    {
+      "id": 272,
+      "outputModuleId": 13,
+      "outputId": 0,
+      "inputModuleId": 81,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 296,
+      "outputModuleId": 44,
+      "outputId": 0,
+      "inputModuleId": 14,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 297,
+      "outputModuleId": 30,
+      "outputId": 0,
+      "inputModuleId": 86,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 298,
+      "outputModuleId": 30,
+      "outputId": 0,
+      "inputModuleId": 86,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 303,
+      "outputModuleId": 86,
+      "outputId": 0,
+      "inputModuleId": 84,
+      "inputId": 8,
+      "color": "#c91847"
+    },
+    {
+      "id": 304,
+      "outputModuleId": 86,
+      "outputId": 1,
+      "inputModuleId": 84,
+      "inputId": 11,
+      "color": "#0986ad"
+    },
+    {
+      "id": 294,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 30,
+      "inputId": 0,
+      "color": "#c9b70e"
     }
   ]
 }
