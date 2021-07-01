@@ -20,8 +20,8 @@
         }
       },
       "pos": [
-        90,
-        2
+        87,
+        1
       ]
     },
     {
@@ -65,8 +65,8 @@
         "faderVal": -0.15553385
       },
       "pos": [
-        32,
-        2
+        29,
+        1
       ]
     },
     {
@@ -143,8 +143,8 @@
         "poly_channel_offset": -1
       },
       "pos": [
-        75,
-        2
+        72,
+        1
       ]
     },
     {
@@ -205,8 +205,8 @@
         "model": 15
       },
       "pos": [
-        52,
-        2
+        49,
+        1
       ]
     },
     {
@@ -257,8 +257,8 @@
         }
       },
       "pos": [
-        40,
-        2
+        37,
+        1
       ]
     },
     {
@@ -306,8 +306,8 @@
         "external": 0
       },
       "pos": [
-        107,
-        3
+        104,
+        2
       ]
     },
     {
@@ -351,8 +351,8 @@
         "offset_cv_to_smoothing": false
       },
       "pos": [
-        44,
-        3
+        41,
+        2
       ]
     },
     {
@@ -377,8 +377,8 @@
       "leftModuleId": 12,
       "rightModuleId": 50,
       "pos": [
-        64,
-        2
+        61,
+        1
       ]
     },
     {
@@ -524,8 +524,8 @@
         "outputSaturation": 0
       },
       "pos": [
-        32,
-        3
+        29,
+        2
       ]
     },
     {
@@ -593,8 +593,8 @@
         "path": "/home/idoleat/DampAir/vcvrack/bus.wav"
       },
       "pos": [
-        54,
-        3
+        51,
+        2
       ]
     },
     {
@@ -640,8 +640,8 @@
         }
       },
       "pos": [
-        71,
-        3
+        68,
+        2
       ]
     },
     {
@@ -685,8 +685,8 @@
         "offset_cv_to_smoothing": false
       },
       "pos": [
-        85,
-        3
+        82,
+        2
       ]
     },
     {
@@ -723,8 +723,8 @@
       "leftModuleId": 84,
       "rightModuleId": 77,
       "pos": [
-        130,
-        2
+        127,
+        1
       ]
     },
     {
@@ -802,8 +802,8 @@
         "poly_channel_offset": -1
       },
       "pos": [
-        100,
-        2
+        97,
+        1
       ]
     },
     {
@@ -814,7 +814,7 @@
       "params": [
         {
           "id": 0,
-          "value": -3.04200149
+          "value": -3.04201984
         },
         {
           "id": 1,
@@ -841,8 +841,8 @@
         "smoothing": 0.0
       },
       "pos": [
-        72,
-        2
+        69,
+        1
       ]
     },
     {
@@ -989,8 +989,8 @@
         "outputSaturation": 0
       },
       "pos": [
-        95,
-        3
+        92,
+        2
       ]
     },
     {
@@ -1028,6 +1028,7 @@
           "value": 0.552003086
         }
       ],
+      "leftModuleId": 124,
       "rightModuleId": 69,
       "data": {
         "settings": [
@@ -1055,8 +1056,8 @@
         "lowCpu": false
       },
       "pos": [
-        32,
-        1
+        39,
+        0
       ]
     },
     {
@@ -1126,8 +1127,8 @@
         "blendMode": 0
       },
       "pos": [
-        48,
-        1
+        55,
+        0
       ]
     },
     {
@@ -1212,8 +1213,8 @@
         "x_clock_source_internal": 0
       },
       "pos": [
-        66,
-        1
+        73,
+        0
       ]
     },
     {
@@ -1226,8 +1227,8 @@
       "rightModuleId": 99,
       "text": "Performance Controls:\n1. 4 modes of texture synth\n2. random sample parmater\n3. DaDaDa\n4. BusStation\n5. BusStation pitch attn\n6. Change polygene\n\nCan be more generative/random\nMRT Sample haven't used.Experiment connecting high freq LFO to everywhere more.\n\nFinal integration:\nmake some control interface to fade between them.",
       "pos": [
-        92,
-        1
+        99,
+        0
       ]
     },
     {
@@ -1293,8 +1294,8 @@
         "easterEgg": false
       },
       "pos": [
-        136,
-        2
+        133,
+        1
       ]
     },
     {
@@ -1351,8 +1352,8 @@
         "sync_prescaler": 6
       },
       "pos": [
-        124,
-        3
+        121,
+        2
       ]
     },
     {
@@ -1393,8 +1394,8 @@
       "leftModuleId": 92,
       "rightModuleId": 97,
       "pos": [
-        143,
-        1
+        150,
+        0
       ]
     },
     {
@@ -1438,8 +1439,8 @@
       ],
       "leftModuleId": 81,
       "pos": [
-        154,
-        3
+        151,
+        2
       ]
     },
     {
@@ -1629,8 +1630,8 @@
         }
       },
       "pos": [
-        136,
-        3
+        133,
+        2
       ]
     },
     {
@@ -1659,8 +1660,8 @@
       "leftModuleId": 77,
       "rightModuleId": 89,
       "pos": [
-        150,
-        2
+        147,
+        1
       ]
     },
     {
@@ -1737,8 +1738,8 @@
         "poly_channel_offset": -1
       },
       "pos": [
-        115,
-        2
+        112,
+        1
       ]
     },
     {
@@ -1803,8 +1804,8 @@
       "leftModuleId": 99,
       "rightModuleId": 95,
       "pos": [
-        116,
-        1
+        123,
+        0
       ]
     },
     {
@@ -1843,13 +1844,12 @@
         }
       ],
       "leftModuleId": 83,
-      "rightModuleId": 111,
       "data": {
         "offset_cv_to_smoothing": false
       },
       "pos": [
-        158,
-        2
+        155,
+        1
       ]
     },
     {
@@ -1996,8 +1996,8 @@
         "outputSaturation": 0
       },
       "pos": [
-        131,
-        1
+        138,
+        0
       ]
     },
     {
@@ -2029,8 +2029,8 @@
         "m_snapped": false
       },
       "pos": [
-        123,
-        1
+        130,
+        0
       ]
     },
     {
@@ -2082,8 +2082,8 @@
       ],
       "leftModuleId": 79,
       "pos": [
-        153,
-        1
+        160,
+        0
       ]
     },
     {
@@ -2115,8 +2115,8 @@
         "m_snapped": false
       },
       "pos": [
-        84,
-        1
+        91,
+        0
       ]
     },
     {
@@ -2183,8 +2183,8 @@
         ]
       },
       "pos": [
-        108,
-        1
+        115,
+        0
       ]
     },
     {
@@ -3460,52 +3460,8 @@
         "currChan": 0
       },
       "pos": [
-        118,
-        4
-      ]
-    },
-    {
-      "id": 111,
-      "plugin": "Bogaudio",
-      "version": "1.1.37",
-      "model": "Bogaudio-LFO",
-      "params": [
-        {
-          "id": 0,
-          "value": -2.34801412
-        },
-        {
-          "id": 1,
-          "value": 0.0
-        },
-        {
-          "id": 2,
-          "value": 0.0
-        },
-        {
-          "id": 3,
-          "value": 0.0
-        },
-        {
-          "id": 4,
-          "value": 0.55599916
-        },
-        {
-          "id": 5,
-          "value": 1.0
-        },
-        {
-          "id": 6,
-          "value": 0.0
-        }
-      ],
-      "leftModuleId": 89,
-      "data": {
-        "offset_cv_to_smoothing": false
-      },
-      "pos": [
-        168,
-        2
+        115,
+        3
       ]
     },
     {
@@ -3537,8 +3493,8 @@
         "m_snapped": false
       },
       "pos": [
-        97,
-        4
+        94,
+        3
       ]
     },
     {
@@ -3588,8 +3544,8 @@
         "indicator_knobs": true
       },
       "pos": [
-        111,
-        4
+        108,
+        3
       ]
     },
     {
@@ -3640,8 +3596,8 @@
         "indicator_knobs": true
       },
       "pos": [
-        105,
-        4
+        102,
+        3
       ]
     },
     {
@@ -4193,8 +4149,8 @@
         ]
       },
       "pos": [
-        3,
-        1
+        0,
+        0
       ]
     },
     {
@@ -4231,8 +4187,8 @@
       "leftModuleId": 122,
       "rightModuleId": 120,
       "pos": [
-        15,
-        1
+        12,
+        0
       ]
     },
     {
@@ -4338,8 +4294,8 @@
         ]
       },
       "pos": [
-        21,
-        1
+        18,
+        0
       ]
     },
     {
@@ -4424,8 +4380,8 @@
         "range_scale": 10.0
       },
       "pos": [
-        7,
-        1
+        4,
+        0
       ]
     },
     {
@@ -4463,11 +4419,12 @@
           "value": 0.682502627
         }
       ],
+      "rightModuleId": 68,
       "data": {
         "offset_cv_to_smoothing": false
       },
       "pos": [
-        56,
+        29,
         0
       ]
     },
@@ -4546,7 +4503,6 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 131,
       "rightModuleId": 126,
       "data": {
         "panelTheme": 0,
@@ -4678,7 +4634,7 @@
                 },
                 {
                   "id": 2,
-                  "value": 0.179000109
+                  "value": -1.0
                 },
                 {
                   "id": 3,
@@ -4782,7 +4738,7 @@
                 },
                 {
                   "id": 3,
-                  "value": 0.239000127
+                  "value": -0.129999995
                 },
                 {
                   "id": 4,
@@ -4893,8 +4849,8 @@
         ]
       },
       "pos": [
-        8,
-        2
+        5,
+        1
       ]
     },
     {
@@ -4944,8 +4900,8 @@
         "range_scale": 5.0
       },
       "pos": [
-        12,
-        2
+        9,
+        1
       ]
     },
     {
@@ -4982,8 +4938,8 @@
       "leftModuleId": 126,
       "rightModuleId": 128,
       "pos": [
-        15,
-        2
+        12,
+        1
       ]
     },
     {
@@ -5121,8 +5077,8 @@
         ]
       },
       "pos": [
-        21,
-        2
+        18,
+        1
       ]
     },
     {
@@ -5170,93 +5126,8 @@
         "external": 0
       },
       "pos": [
-        84,
-        4
-      ]
-    },
-    {
-      "id": 131,
-      "plugin": "Bogaudio",
-      "version": "1.1.37",
-      "model": "Bogaudio-PolyCon",
-      "params": [
-        {
-          "id": 0,
-          "value": 16.0
-        },
-        {
-          "id": 1,
-          "value": 0.812059999
-        },
-        {
-          "id": 2,
-          "value": 0.812059999
-        },
-        {
-          "id": 3,
-          "value": 0.578499973
-        },
-        {
-          "id": 4,
-          "value": 0.435000002
-        },
-        {
-          "id": 5,
-          "value": 0.252059996
-        },
-        {
-          "id": 6,
-          "value": 0.0
-        },
-        {
-          "id": 7,
-          "value": 0.0
-        },
-        {
-          "id": 8,
-          "value": 0.0
-        },
-        {
-          "id": 9,
-          "value": 0.0
-        },
-        {
-          "id": 10,
-          "value": 0.0
-        },
-        {
-          "id": 11,
-          "value": 0.0
-        },
-        {
-          "id": 12,
-          "value": 0.0
-        },
-        {
-          "id": 13,
-          "value": 0.0
-        },
-        {
-          "id": 14,
-          "value": 0.0
-        },
-        {
-          "id": 15,
-          "value": 0.0
-        },
-        {
-          "id": 16,
-          "value": 0.0
-        }
-      ],
-      "rightModuleId": 125,
-      "data": {
-        "range_offset": 0.0,
-        "range_scale": 10.0
-      },
-      "pos": [
-        0,
-        2
+        81,
+        3
       ]
     }
   ],
@@ -5854,20 +5725,20 @@
       "color": "#c91847"
     },
     {
-      "id": 452,
-      "outputModuleId": 115,
-      "outputId": 0,
-      "inputModuleId": 57,
-      "inputId": 3,
-      "color": "#0986ad"
-    },
-    {
       "id": 442,
       "outputModuleId": 126,
       "outputId": 0,
       "inputModuleId": 127,
       "inputId": 0,
       "color": "#0c8e15"
+    },
+    {
+      "id": 452,
+      "outputModuleId": 115,
+      "outputId": 0,
+      "inputModuleId": 57,
+      "inputId": 3,
+      "color": "#0986ad"
     }
   ]
 }
