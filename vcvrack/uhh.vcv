@@ -747,7 +747,7 @@
         },
         {
           "id": 3,
-          "value": 0.0
+          "value": 0.910000026
         },
         {
           "id": 4,
@@ -759,7 +759,7 @@
         },
         {
           "id": 6,
-          "value": 0.0
+          "value": 0.910000026
         },
         {
           "id": 7,
@@ -1025,7 +1025,7 @@
         },
         {
           "id": 6,
-          "value": 0.552003086
+          "value": 0.542498052
         }
       ],
       "leftModuleId": 124,
@@ -1704,7 +1704,7 @@
         },
         {
           "id": 8,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 9,
@@ -1716,7 +1716,7 @@
         },
         {
           "id": 11,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 12,
@@ -2170,7 +2170,7 @@
       "rightModuleId": 86,
       "data": {
         "states": [
-          true,
+          false,
           false,
           true,
           true,
@@ -3685,7 +3685,7 @@
         "realModelSlug": "Bogaudio-PolyCon",
         "moduleName": "Bogaudio POLYCON16",
         "slotCvMode": 2,
-        "preset": 15,
+        "preset": 0,
         "presetCount": 16,
         "presets": [
           {
@@ -4318,11 +4318,11 @@
         },
         {
           "id": 3,
-          "value": 0.0
+          "value": 0.910000026
         },
         {
           "id": 4,
-          "value": 0.0
+          "value": 0.910000026
         },
         {
           "id": 5,
@@ -4920,11 +4920,11 @@
         },
         {
           "id": 2,
-          "value": 0.800000012
+          "value": 0.899999976
         },
         {
           "id": 3,
-          "value": 0.800000012
+          "value": 0.899999976
         },
         {
           "id": 4,
@@ -5253,7 +5253,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": -1.0
         },
         {
           "id": 1,
@@ -5261,7 +5261,7 @@
         },
         {
           "id": 2,
-          "value": 0.800000012
+          "value": 0.899999976
         },
         {
           "id": 3,
@@ -5623,7 +5623,204 @@
             }
           },
           {
-            "slotUsed": false
+            "slotUsed": true,
+            "slot": {
+              "id": 139,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 1,
+                  "value": -0.132996827
+                },
+                {
+                  "id": 2,
+                  "value": -0.105000488
+                },
+                {
+                  "id": 3,
+                  "value": 0.588997185
+                },
+                {
+                  "id": 4,
+                  "value": 0.176746026
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 140,
+              "rightModuleId": 138,
+              "data": {
+                "poly_channels": 5,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 139,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 1,
+                  "value": -0.933999538
+                },
+                {
+                  "id": 2,
+                  "value": -0.296439409
+                },
+                {
+                  "id": 3,
+                  "value": 0.676936567
+                },
+                {
+                  "id": 4,
+                  "value": 0.176746026
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 140,
+              "rightModuleId": 138,
+              "data": {
+                "poly_channels": 5,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 139,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 1,
+                  "value": 0.818004191
+                },
+                {
+                  "id": 2,
+                  "value": 0.111560643
+                },
+                {
+                  "id": 3,
+                  "value": 0.0889353007
+                },
+                {
+                  "id": 4,
+                  "value": 0.0447459668
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 140,
+              "rightModuleId": 138,
+              "data": {
+                "poly_channels": 5,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 139,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 1,
+                  "value": 0.58899802
+                },
+                {
+                  "id": 2,
+                  "value": -0.0860007629
+                },
+                {
+                  "id": 3,
+                  "value": 0.0649353117
+                },
+                {
+                  "id": 4,
+                  "value": -0.375253856
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 140,
+              "rightModuleId": 138,
+              "data": {
+                "poly_channels": 5,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
           },
           {
             "slotUsed": false
@@ -5635,16 +5832,54 @@
             "slotUsed": false
           },
           {
-            "slotUsed": false
-          },
-          {
-            "slotUsed": false
-          },
-          {
-            "slotUsed": false
-          },
-          {
-            "slotUsed": false
+            "slotUsed": true,
+            "slot": {
+              "id": 139,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 1,
+                  "value": -0.246997237
+                },
+                {
+                  "id": 2,
+                  "value": 0.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.375999868
+                },
+                {
+                  "id": 4,
+                  "value": 0.311746001
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 140,
+              "rightModuleId": 138,
+              "data": {
+                "poly_channels": 5,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
           },
           {
             "slotUsed": false
