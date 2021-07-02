@@ -747,7 +747,7 @@
         },
         {
           "id": 3,
-          "value": 0.910000026
+          "value": 0.0
         },
         {
           "id": 4,
@@ -759,7 +759,7 @@
         },
         {
           "id": 6,
-          "value": 0.910000026
+          "value": 0.0
         },
         {
           "id": 7,
@@ -1122,7 +1122,7 @@
       "leftModuleId": 68,
       "rightModuleId": 70,
       "data": {
-        "playback": 0,
+        "playback": 3,
         "quality": 0,
         "blendMode": 1
       },
@@ -1224,7 +1224,7 @@
       "model": "Notes",
       "params": [],
       "leftModuleId": 98,
-      "rightModuleId": 99,
+      "rightModuleId": 148,
       "text": "Performance Controls:\n1. 4 modes of texture synth\n2. random sample parmater\n3. DaDaDa\n4. BusStation\n5. BusStation pitch attn\n6. Change polygene\n\nCan be more generative/random\nMRT Sample haven't used.Experiment connecting high freq LFO to everywhere more.\n\nFinal integration:\nmake some control interface to fade between them.",
       "pos": [
         99,
@@ -1394,7 +1394,7 @@
       "leftModuleId": 92,
       "rightModuleId": 97,
       "pos": [
-        150,
+        148,
         0
       ]
     },
@@ -1704,7 +1704,7 @@
         },
         {
           "id": 8,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 9,
@@ -1716,7 +1716,7 @@
         },
         {
           "id": 11,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 12,
@@ -1801,10 +1801,10 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 99,
+      "leftModuleId": 148,
       "rightModuleId": 95,
       "pos": [
-        123,
+        121,
         0
       ]
     },
@@ -1996,7 +1996,7 @@
         "outputSaturation": 0
       },
       "pos": [
-        138,
+        136,
         0
       ]
     },
@@ -2029,7 +2029,7 @@
         "m_snapped": false
       },
       "pos": [
-        130,
+        128,
         0
       ]
     },
@@ -2082,7 +2082,7 @@
       ],
       "leftModuleId": 79,
       "pos": [
-        160,
+        158,
         0
       ]
     },
@@ -2116,74 +2116,6 @@
       },
       "pos": [
         91,
-        0
-      ]
-    },
-    {
-      "id": 99,
-      "plugin": "Fundamental",
-      "version": "1.4.0",
-      "model": "Mutes",
-      "params": [
-        {
-          "id": 0,
-          "value": 0.0
-        },
-        {
-          "id": 1,
-          "value": 0.0
-        },
-        {
-          "id": 2,
-          "value": 0.0
-        },
-        {
-          "id": 3,
-          "value": 0.0
-        },
-        {
-          "id": 4,
-          "value": 0.0
-        },
-        {
-          "id": 5,
-          "value": 0.0
-        },
-        {
-          "id": 6,
-          "value": 0.0
-        },
-        {
-          "id": 7,
-          "value": 0.0
-        },
-        {
-          "id": 8,
-          "value": 0.0
-        },
-        {
-          "id": 9,
-          "value": 0.0
-        }
-      ],
-      "leftModuleId": 72,
-      "rightModuleId": 86,
-      "data": {
-        "states": [
-          false,
-          false,
-          true,
-          true,
-          true,
-          true,
-          true,
-          true,
-          true,
-          false
-        ]
-      },
-      "pos": [
-        115,
         0
       ]
     },
@@ -3006,6 +2938,7 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 114,
       "data": {
         "running": true,
         "ppqn": 48,
@@ -3493,7 +3426,7 @@
         "m_snapped": false
       },
       "pos": [
-        94,
+        95,
         3
       ]
     },
@@ -3537,6 +3470,7 @@
         }
       ],
       "leftModuleId": 115,
+      "rightModuleId": 110,
       "data": {
         "clipping_mode": 0,
         "input_gain_db": 0.0,
@@ -3544,7 +3478,7 @@
         "indicator_knobs": true
       },
       "pos": [
-        108,
+        109,
         3
       ]
     },
@@ -3596,7 +3530,7 @@
         "indicator_knobs": true
       },
       "pos": [
-        102,
+        103,
         3
       ]
     },
@@ -3685,7 +3619,7 @@
         "realModelSlug": "Bogaudio-PolyCon",
         "moduleName": "Bogaudio POLYCON16",
         "slotCvMode": 2,
-        "preset": 0,
+        "preset": 15,
         "presetCount": 16,
         "presets": [
           {
@@ -4318,11 +4252,11 @@
         },
         {
           "id": 3,
-          "value": 0.910000026
+          "value": 0.0
         },
         {
           "id": 4,
-          "value": 0.910000026
+          "value": 0.0
         },
         {
           "id": 5,
@@ -5126,7 +5060,7 @@
         "external": 0
       },
       "pos": [
-        81,
+        82,
         3
       ]
     },
@@ -5448,7 +5382,7 @@
                 },
                 {
                   "id": 4,
-                  "value": 0.0
+                  "value": 0.0159375146
                 },
                 {
                   "id": 5,
@@ -5946,6 +5880,400 @@
         5,
         2
       ]
+    },
+    {
+      "id": 141,
+      "plugin": "Stoermelder-P1",
+      "version": "1.9.0",
+      "model": "CVMap",
+      "params": [],
+      "leftModuleId": 142,
+      "data": {
+        "textScrolling": true,
+        "mappingIndicatorHidden": false,
+        "maps": [
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "input": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          }
+        ],
+        "lockParameterChanges": true,
+        "bipolarInput": false,
+        "panelTheme": 0,
+        "audioRate": false,
+        "locked": true,
+        "inputConfig": [
+          {
+            "hideUnused": true,
+            "label": [
+              "hi",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "hideUnused": true,
+            "label": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      "pos": [
+        18,
+        3
+      ]
+    },
+    {
+      "id": 142,
+      "plugin": "stocaudio",
+      "version": "1.0.1",
+      "model": "Polyslew",
+      "params": [
+        {
+          "id": 0,
+          "value": -1.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.899999976
+        },
+        {
+          "id": 3,
+          "value": 0.899999976
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 143,
+      "rightModuleId": 141,
+      "pos": [
+        12,
+        3
+      ]
+    },
+    {
+      "id": 143,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-PolyCon",
+      "params": [
+        {
+          "id": 0,
+          "value": 16.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 144,
+      "rightModuleId": 142,
+      "data": {
+        "range_offset": 0.0,
+        "range_scale": 10.0
+      },
+      "pos": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": 144,
+      "plugin": "Stoermelder-P1",
+      "version": "1.9.0",
+      "model": "EightFaceX2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 143,
+      "data": {
+        "panelTheme": 0,
+        "mode": 1,
+        "pluginSlug": "",
+        "modelSlug": "",
+        "realPluginSlug": "",
+        "realModelSlug": "",
+        "moduleName": "",
+        "slotCvMode": 2,
+        "preset": -1,
+        "presetCount": 16,
+        "presets": [
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          }
+        ]
+      },
+      "pos": [
+        0,
+        3
+      ]
+    },
+    {
+      "id": 148,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-Matrix18",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 72,
+      "rightModuleId": 86,
+      "data": {
+        "clipping_mode": 0,
+        "input_gain_db": 0.0,
+        "sum": true,
+        "indicator_knobs": true
+      },
+      "pos": [
+        115,
+        0
+      ]
     }
   ],
   "cables": [
@@ -6358,14 +6686,6 @@
       "color": "#0986ad"
     },
     {
-      "id": 380,
-      "outputModuleId": 48,
-      "outputId": 0,
-      "inputModuleId": 99,
-      "inputId": 0,
-      "color": "#0986ad"
-    },
-    {
       "id": 243,
       "outputModuleId": 69,
       "outputId": 1,
@@ -6380,22 +6700,6 @@
       "inputModuleId": 49,
       "inputId": 5,
       "color": "#0986ad"
-    },
-    {
-      "id": 410,
-      "outputModuleId": 99,
-      "outputId": 0,
-      "inputModuleId": 30,
-      "inputId": 0,
-      "color": "#0986ad"
-    },
-    {
-      "id": 411,
-      "outputModuleId": 30,
-      "outputId": 0,
-      "inputModuleId": 92,
-      "inputId": 1,
-      "color": "#c9b70e"
     },
     {
       "id": 277,
@@ -6595,6 +6899,46 @@
       "outputId": 0,
       "inputModuleId": 49,
       "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 465,
+      "outputModuleId": 143,
+      "outputId": 0,
+      "inputModuleId": 142,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 466,
+      "outputModuleId": 142,
+      "outputId": 0,
+      "inputModuleId": 141,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 410,
+      "outputModuleId": 148,
+      "outputId": 0,
+      "inputModuleId": 30,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 380,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 148,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 411,
+      "outputModuleId": 30,
+      "outputId": 0,
+      "inputModuleId": 92,
+      "inputId": 1,
       "color": "#c9b70e"
     }
   ]
