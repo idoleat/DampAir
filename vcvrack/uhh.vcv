@@ -531,7 +531,7 @@
     {
       "id": 43,
       "plugin": "voxglitch",
-      "version": "1.30.1",
+      "version": "1.31.0",
       "model": "ghosts",
       "params": [
         {
@@ -747,7 +747,7 @@
         },
         {
           "id": 3,
-          "value": 0.0
+          "value": 0.910000026
         },
         {
           "id": 4,
@@ -759,7 +759,7 @@
         },
         {
           "id": 6,
-          "value": 0.0
+          "value": 0.910000026
         },
         {
           "id": 7,
@@ -1013,7 +1013,7 @@
         },
         {
           "id": 3,
-          "value": 0.0
+          "value": 0.722499967
         },
         {
           "id": 4,
@@ -1028,8 +1028,7 @@
           "value": 0.542498052
         }
       ],
-      "leftModuleId": 124,
-      "rightModuleId": 69,
+      "rightModuleId": 151,
       "data": {
         "settings": [
           25,
@@ -1056,7 +1055,7 @@
         "lowCpu": false
       },
       "pos": [
-        39,
+        29,
         0
       ]
     },
@@ -1096,7 +1095,7 @@
         },
         {
           "id": 7,
-          "value": 1.0
+          "value": 0.682000101
         },
         {
           "id": 8,
@@ -1104,7 +1103,7 @@
         },
         {
           "id": 9,
-          "value": 0.692497909
+          "value": 0.902500749
         },
         {
           "id": 10,
@@ -1119,15 +1118,15 @@
           "value": 0.838503301
         }
       ],
-      "leftModuleId": 68,
-      "rightModuleId": 70,
+      "leftModuleId": 151,
+      "rightModuleId": 150,
       "data": {
         "playback": 3,
         "quality": 0,
-        "blendMode": 1
+        "blendMode": 2
       },
       "pos": [
-        55,
+        49,
         0
       ]
     },
@@ -1198,7 +1197,7 @@
           "value": 0.873004079
         }
       ],
-      "leftModuleId": 69,
+      "leftModuleId": 150,
       "rightModuleId": 98,
       "data": {
         "t_deja_vu": true,
@@ -1213,7 +1212,7 @@
         "x_clock_source_internal": 0
       },
       "pos": [
-        73,
+        71,
         0
       ]
     },
@@ -1227,7 +1226,7 @@
       "rightModuleId": 148,
       "text": "Performance Controls:\n1. 4 modes of texture synth\n2. random sample parmater\n3. DaDaDa\n4. BusStation\n5. BusStation pitch attn\n6. Change polygene\n\nCan be more generative/random\nMRT Sample haven't used.Experiment connecting high freq LFO to everywhere more.\n\nFinal integration:\nmake some control interface to fade between them.",
       "pos": [
-        99,
+        97,
         0
       ]
     },
@@ -1394,53 +1393,8 @@
       "leftModuleId": 92,
       "rightModuleId": 97,
       "pos": [
-        148,
+        146,
         0
-      ]
-    },
-    {
-      "id": 80,
-      "plugin": "AlrightDevices",
-      "version": "1.0.3",
-      "model": "T-Wrex",
-      "params": [
-        {
-          "id": 0,
-          "value": 0.592501521
-        },
-        {
-          "id": 1,
-          "value": 0.721504033
-        },
-        {
-          "id": 2,
-          "value": 0.807501793
-        },
-        {
-          "id": 3,
-          "value": 0.903997958
-        },
-        {
-          "id": 4,
-          "value": 0.0
-        },
-        {
-          "id": 5,
-          "value": 0.0
-        },
-        {
-          "id": 6,
-          "value": 0.0
-        },
-        {
-          "id": 7,
-          "value": 0.0
-        }
-      ],
-      "leftModuleId": 81,
-      "pos": [
-        151,
-        2
       ]
     },
     {
@@ -1487,7 +1441,6 @@
         }
       ],
       "leftModuleId": 78,
-      "rightModuleId": 80,
       "data": {
         "length": 24.0735455,
         "hits": 0.798279285,
@@ -1804,7 +1757,7 @@
       "leftModuleId": 148,
       "rightModuleId": 95,
       "pos": [
-        121,
+        119,
         0
       ]
     },
@@ -1996,7 +1949,7 @@
         "outputSaturation": 0
       },
       "pos": [
-        136,
+        134,
         0
       ]
     },
@@ -2029,7 +1982,7 @@
         "m_snapped": false
       },
       "pos": [
-        128,
+        126,
         0
       ]
     },
@@ -2082,7 +2035,7 @@
       ],
       "leftModuleId": 79,
       "pos": [
-        158,
+        156,
         0
       ]
     },
@@ -2115,7 +2068,7 @@
         "m_snapped": false
       },
       "pos": [
-        91,
+        89,
         0
       ]
     },
@@ -3537,7 +3490,7 @@
     {
       "id": 117,
       "plugin": "Stoermelder-P1",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "model": "EightFaceX2",
       "params": [
         {
@@ -3619,7 +3572,7 @@
         "realModelSlug": "Bogaudio-PolyCon",
         "moduleName": "Bogaudio POLYCON16",
         "slotCvMode": 2,
-        "preset": 15,
+        "preset": 2,
         "presetCount": 16,
         "presets": [
           {
@@ -4128,7 +4081,7 @@
     {
       "id": 120,
       "plugin": "Stoermelder-P1",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "model": "CVMap",
       "params": [],
       "leftModuleId": 119,
@@ -4244,19 +4197,19 @@
         },
         {
           "id": 1,
-          "value": 0.0
+          "value": 0.722499967
         },
         {
           "id": 2,
-          "value": 1.0
+          "value": 0.682000041
         },
         {
           "id": 3,
-          "value": 0.0
+          "value": 0.910000026
         },
         {
           "id": 4,
-          "value": 0.0
+          "value": 0.910000026
         },
         {
           "id": 5,
@@ -4319,53 +4272,9 @@
       ]
     },
     {
-      "id": 124,
-      "plugin": "Bogaudio",
-      "version": "1.1.37",
-      "model": "Bogaudio-LFO",
-      "params": [
-        {
-          "id": 0,
-          "value": -3.45150256
-        },
-        {
-          "id": 1,
-          "value": 0.0
-        },
-        {
-          "id": 2,
-          "value": 0.0
-        },
-        {
-          "id": 3,
-          "value": 0.0
-        },
-        {
-          "id": 4,
-          "value": 0.183000088
-        },
-        {
-          "id": 5,
-          "value": 1.0
-        },
-        {
-          "id": 6,
-          "value": 0.682502627
-        }
-      ],
-      "rightModuleId": 68,
-      "data": {
-        "offset_cv_to_smoothing": false
-      },
-      "pos": [
-        29,
-        0
-      ]
-    },
-    {
       "id": 125,
       "plugin": "Stoermelder-P1",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "model": "EightFaceX2",
       "params": [
         {
@@ -4879,7 +4788,7 @@
     {
       "id": 128,
       "plugin": "Stoermelder-P1",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "model": "CVMap",
       "params": [],
       "leftModuleId": 127,
@@ -5067,7 +4976,7 @@
     {
       "id": 137,
       "plugin": "Stoermelder-P1",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "model": "CVMap",
       "params": [],
       "leftModuleId": 138,
@@ -5271,7 +5180,7 @@
     {
       "id": 140,
       "plugin": "Stoermelder-P1",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "model": "EightFaceX2",
       "params": [
         {
@@ -5884,7 +5793,7 @@
     {
       "id": 141,
       "plugin": "Stoermelder-P1",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "model": "CVMap",
       "params": [],
       "leftModuleId": 142,
@@ -6083,7 +5992,7 @@
     {
       "id": 144,
       "plugin": "Stoermelder-P1",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "model": "EightFaceX2",
       "params": [
         {
@@ -6271,7 +6180,444 @@
         "indicator_knobs": true
       },
       "pos": [
-        115,
+        113,
+        0
+      ]
+    },
+    {
+      "id": 150,
+      "plugin": "Stoermelder-P1",
+      "version": "1.10.0",
+      "model": "EightFaceX2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 69,
+      "rightModuleId": 70,
+      "data": {
+        "panelTheme": 1,
+        "mode": 1,
+        "pluginSlug": "Audible Instruments",
+        "modelSlug": "Random Sampler",
+        "realPluginSlug": "AudibleInstruments",
+        "realModelSlug": "Marbles",
+        "moduleName": "Audible Instruments Random Sampler",
+        "slotCvMode": 2,
+        "preset": -1,
+        "presetCount": 16,
+        "presets": [
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 70,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Marbles",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.68450129
+                },
+                {
+                  "id": 3,
+                  "value": 0.401999772
+                },
+                {
+                  "id": 4,
+                  "value": 0.749001741
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.537001431
+                },
+                {
+                  "id": 8,
+                  "value": 0.5
+                },
+                {
+                  "id": 9,
+                  "value": 0.708002508
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.652502477
+                },
+                {
+                  "id": 14,
+                  "value": 0.873004079
+                }
+              ],
+              "leftModuleId": 150,
+              "rightModuleId": 98,
+              "data": {
+                "t_deja_vu": true,
+                "x_deja_vu": true,
+                "t_mode": 1,
+                "x_mode": 2,
+                "t_range": 0,
+                "x_range": 2,
+                "external": false,
+                "x_scale": 0,
+                "y_divider_index": 8,
+                "x_clock_source_internal": 0
+              }
+            }
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          }
+        ]
+      },
+      "pos": [
+        67,
+        0
+      ]
+    },
+    {
+      "id": 151,
+      "plugin": "Stoermelder-P1",
+      "version": "1.10.0",
+      "model": "EightFaceX2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 68,
+      "rightModuleId": 69,
+      "data": {
+        "panelTheme": 1,
+        "mode": 1,
+        "pluginSlug": "Audible Instruments",
+        "modelSlug": "Texture Synthesizer",
+        "realPluginSlug": "AudibleInstruments",
+        "realModelSlug": "Clouds",
+        "moduleName": "Audible Instruments Texture Synthesizer",
+        "slotCvMode": 2,
+        "preset": -1,
+        "presetCount": 16,
+        "presets": [
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 69,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Clouds",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.741501689
+                },
+                {
+                  "id": 4,
+                  "value": 0.627003014
+                },
+                {
+                  "id": 5,
+                  "value": 0.0640049279
+                },
+                {
+                  "id": 6,
+                  "value": 0.5
+                },
+                {
+                  "id": 7,
+                  "value": 0.682000101
+                },
+                {
+                  "id": 8,
+                  "value": 0.814503789
+                },
+                {
+                  "id": 9,
+                  "value": 0.902500749
+                },
+                {
+                  "id": 10,
+                  "value": 0.921999454
+                },
+                {
+                  "id": 11,
+                  "value": 0.478501588
+                },
+                {
+                  "id": 12,
+                  "value": 0.838503301
+                }
+              ],
+              "leftModuleId": 151,
+              "rightModuleId": 150,
+              "data": {
+                "playback": 3,
+                "quality": 0,
+                "blendMode": 2
+              }
+            }
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          }
+        ]
+      },
+      "pos": [
+        45,
         0
       ]
     }
@@ -6630,14 +6976,6 @@
       "color": "#c91847"
     },
     {
-      "id": 403,
-      "outputModuleId": 50,
-      "outputId": 0,
-      "inputModuleId": 14,
-      "inputId": 0,
-      "color": "#0c8e15"
-    },
-    {
       "id": 404,
       "outputModuleId": 98,
       "outputId": 0,
@@ -6780,14 +7118,6 @@
       "inputModuleId": 119,
       "inputId": 0,
       "color": "#c9b70e"
-    },
-    {
-      "id": 440,
-      "outputModuleId": 124,
-      "outputId": 4,
-      "inputModuleId": 69,
-      "inputId": 5,
-      "color": "#0986ad"
     },
     {
       "id": 441,
@@ -6939,6 +7269,14 @@
       "outputId": 0,
       "inputModuleId": 92,
       "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 470,
+      "outputModuleId": 50,
+      "outputId": 0,
+      "inputModuleId": 14,
+      "inputId": 0,
       "color": "#c9b70e"
     }
   ]
