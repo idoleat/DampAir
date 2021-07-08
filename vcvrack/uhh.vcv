@@ -179,7 +179,7 @@
         },
         {
           "id": 6,
-          "value": 0.237000093
+          "value": 0.231997252
         },
         {
           "id": 7,
@@ -1025,13 +1025,13 @@
         },
         {
           "id": 6,
-          "value": 0.542498052
+          "value": 0.585998356
         }
       ],
       "rightModuleId": 151,
       "data": {
         "settings": [
-          25,
+          27,
           0,
           0,
           0,
@@ -1121,7 +1121,7 @@
       "leftModuleId": 151,
       "rightModuleId": 150,
       "data": {
-        "playback": 3,
+        "playback": 0,
         "quality": 0,
         "blendMode": 2
       },
@@ -1625,7 +1625,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.30359298
+          "value": 0.0
         },
         {
           "id": 1,
@@ -1637,7 +1637,7 @@
         },
         {
           "id": 3,
-          "value": 0.30359298
+          "value": 0.0
         },
         {
           "id": 4,
@@ -1649,7 +1649,7 @@
         },
         {
           "id": 6,
-          "value": 0.30359298
+          "value": 0.0
         },
         {
           "id": 7,
@@ -1661,7 +1661,7 @@
         },
         {
           "id": 9,
-          "value": 0.30359298
+          "value": 0.0
         },
         {
           "id": 10,
@@ -5979,7 +5979,7 @@
         },
         {
           "id": 5,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 6,
@@ -6122,7 +6122,7 @@
         "realModelSlug": "Bogaudio-PolyCon",
         "moduleName": "Bogaudio POLYCON16",
         "slotCvMode": 2,
-        "preset": 14,
+        "preset": 15,
         "presetCount": 16,
         "presets": [
           {
@@ -6680,7 +6680,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 1,
@@ -7200,7 +7200,7 @@
         "realModelSlug": "Clouds",
         "moduleName": "Audible Instruments Texture Synthesizer",
         "slotCvMode": 2,
-        "preset": 15,
+        "preset": 0,
         "presetCount": 16,
         "presets": [
           {
@@ -7380,7 +7380,74 @@
             "slotUsed": false
           },
           {
-            "slotUsed": false
+            "slotUsed": true,
+            "slot": {
+              "id": 69,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Clouds",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.741501689
+                },
+                {
+                  "id": 4,
+                  "value": 0.627003014
+                },
+                {
+                  "id": 5,
+                  "value": 0.0640049279
+                },
+                {
+                  "id": 6,
+                  "value": 0.5
+                },
+                {
+                  "id": 7,
+                  "value": 0.682000101
+                },
+                {
+                  "id": 8,
+                  "value": 0.231000006
+                },
+                {
+                  "id": 9,
+                  "value": 0.902500749
+                },
+                {
+                  "id": 10,
+                  "value": 0.921999454
+                },
+                {
+                  "id": 11,
+                  "value": 0.478500009
+                },
+                {
+                  "id": 12,
+                  "value": 0.838503301
+                }
+              ],
+              "leftModuleId": 151,
+              "rightModuleId": 150,
+              "data": {
+                "playback": 3,
+                "quality": 0,
+                "blendMode": 2
+              }
+            }
           },
           {
             "slotUsed": true,
