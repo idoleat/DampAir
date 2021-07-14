@@ -167,7 +167,7 @@
         },
         {
           "id": 3,
-          "value": 0.57649976
+          "value": 0.809501052
         },
         {
           "id": 4,
@@ -175,19 +175,19 @@
         },
         {
           "id": 5,
-          "value": 0.546500325
+          "value": 0.309001178
         },
         {
           "id": 6,
-          "value": 0.231997252
+          "value": -0.733999968
         },
         {
           "id": 7,
-          "value": 0.0
+          "value": 0.804998875
         },
         {
           "id": 8,
-          "value": 1.0
+          "value": 0.621999502
         },
         {
           "id": 9,
@@ -202,7 +202,7 @@
       "rightModuleId": 30,
       "data": {
         "lowCpu": false,
-        "model": 15
+        "model": 13
       },
       "pos": [
         49,
@@ -233,7 +233,7 @@
         },
         {
           "id": 4,
-          "value": 1.0
+          "value": 0.150998175
         },
         {
           "id": 5,
@@ -1155,7 +1155,7 @@
         },
         {
           "id": 4,
-          "value": 0.456500053
+          "value": 0.749001741
         },
         {
           "id": 5,
@@ -1175,7 +1175,7 @@
         },
         {
           "id": 9,
-          "value": 0.507002473
+          "value": 0.708002508
         },
         {
           "id": 10,
@@ -1195,14 +1195,14 @@
         },
         {
           "id": 14,
-          "value": 0.519002557
+          "value": 0.873004079
         }
       ],
       "leftModuleId": 150,
       "rightModuleId": 98,
       "data": {
         "t_deja_vu": true,
-        "x_deja_vu": false,
+        "x_deja_vu": true,
         "t_mode": 1,
         "x_mode": 2,
         "t_range": 0,
@@ -1251,7 +1251,7 @@
         },
         {
           "id": 3,
-          "value": 0.622502923
+          "value": 0.886503696
         },
         {
           "id": 4,
@@ -1628,7 +1628,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.910000026
+          "value": 0.0
         },
         {
           "id": 1,
@@ -1640,7 +1640,7 @@
         },
         {
           "id": 3,
-          "value": 0.910000026
+          "value": 0.0
         },
         {
           "id": 4,
@@ -1652,7 +1652,7 @@
         },
         {
           "id": 6,
-          "value": 0.910000026
+          "value": 0.0
         },
         {
           "id": 7,
@@ -1660,11 +1660,11 @@
         },
         {
           "id": 8,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 9,
-          "value": 0.910000026
+          "value": 0.0
         },
         {
           "id": 10,
@@ -1672,7 +1672,7 @@
         },
         {
           "id": 11,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 12,
@@ -5966,23 +5966,23 @@
         },
         {
           "id": 1,
-          "value": 0.820000052
+          "value": -1.0
         },
         {
           "id": 2,
-          "value": 0.820000052
+          "value": -1.0
         },
         {
           "id": 3,
-          "value": 0.820000052
+          "value": -1.0
         },
         {
           "id": 4,
-          "value": 0.820000052
+          "value": -1.0
         },
         {
           "id": 5,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 6,
@@ -6125,7 +6125,7 @@
         "realModelSlug": "Bogaudio-PolyCon",
         "moduleName": "Bogaudio POLYCON16",
         "slotCvMode": 2,
-        "preset": 0,
+        "preset": 15,
         "presetCount": 16,
         "presets": [
           {
@@ -6683,7 +6683,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 0.858435512
         },
         {
           "id": 1,
@@ -6813,7 +6813,7 @@
         "realModelSlug": "Marbles",
         "moduleName": "Audible Instruments Random Sampler",
         "slotCvMode": 2,
-        "preset": 1,
+        "preset": 0,
         "presetCount": 16,
         "presets": [
           {
@@ -7568,6 +7568,7 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 159,
       "data": {
         "lissajous": 0,
         "external": 0
@@ -7620,12 +7621,487 @@
       "leftModuleId": 153,
       "data": {
         "moduleVersion": 1,
-        "selection": 1,
+        "selection": 0,
         "theme": 0
       },
       "pos": [
         157,
         3
+      ]
+    },
+    {
+      "id": 159,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Marbles",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.68450129
+        },
+        {
+          "id": 3,
+          "value": 0.401999772
+        },
+        {
+          "id": 4,
+          "value": 0.749001741
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.537001431
+        },
+        {
+          "id": 8,
+          "value": 0.5
+        },
+        {
+          "id": 9,
+          "value": 0.708002508
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.652502477
+        },
+        {
+          "id": 14,
+          "value": 0.873004079
+        }
+      ],
+      "leftModuleId": 160,
+      "rightModuleId": 152,
+      "data": {
+        "t_deja_vu": true,
+        "x_deja_vu": true,
+        "t_mode": 1,
+        "x_mode": 2,
+        "t_range": 0,
+        "x_range": 2,
+        "external": false,
+        "x_scale": 0,
+        "y_divider_index": 8,
+        "x_clock_source_internal": 0
+      },
+      "pos": [
+        59,
+        0
+      ]
+    },
+    {
+      "id": 160,
+      "plugin": "Stoermelder-P1",
+      "version": "1.10.0",
+      "model": "EightFaceX2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 159,
+      "data": {
+        "panelTheme": 1,
+        "mode": 1,
+        "pluginSlug": "Audible Instruments",
+        "modelSlug": "Random Sampler",
+        "realPluginSlug": "AudibleInstruments",
+        "realModelSlug": "Marbles",
+        "moduleName": "Audible Instruments Random Sampler",
+        "slotCvMode": 2,
+        "preset": 0,
+        "presetCount": 16,
+        "presets": [
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 70,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Marbles",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.68450129
+                },
+                {
+                  "id": 3,
+                  "value": 0.401999772
+                },
+                {
+                  "id": 4,
+                  "value": 0.749001741
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.537001431
+                },
+                {
+                  "id": 8,
+                  "value": 0.5
+                },
+                {
+                  "id": 9,
+                  "value": 0.708002508
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.652502477
+                },
+                {
+                  "id": 14,
+                  "value": 0.873004079
+                }
+              ],
+              "leftModuleId": 150,
+              "rightModuleId": 98,
+              "data": {
+                "t_deja_vu": true,
+                "x_deja_vu": true,
+                "t_mode": 1,
+                "x_mode": 2,
+                "t_range": 0,
+                "x_range": 2,
+                "external": false,
+                "x_scale": 0,
+                "y_divider_index": 8,
+                "x_clock_source_internal": 0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 70,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Marbles",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.68450129
+                },
+                {
+                  "id": 3,
+                  "value": 0.401999772
+                },
+                {
+                  "id": 4,
+                  "value": 0.456500053
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.537001431
+                },
+                {
+                  "id": 8,
+                  "value": 0.5
+                },
+                {
+                  "id": 9,
+                  "value": 0.507002473
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.652502477
+                },
+                {
+                  "id": 14,
+                  "value": 0.519002557
+                }
+              ],
+              "leftModuleId": 150,
+              "rightModuleId": 98,
+              "data": {
+                "t_deja_vu": true,
+                "x_deja_vu": false,
+                "t_mode": 1,
+                "x_mode": 2,
+                "t_range": 0,
+                "x_range": 2,
+                "external": false,
+                "x_scale": 0,
+                "y_divider_index": 8,
+                "x_clock_source_internal": 0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 70,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Marbles",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.68450129
+                },
+                {
+                  "id": 3,
+                  "value": 0.228000551
+                },
+                {
+                  "id": 4,
+                  "value": 0.55850035
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.537001431
+                },
+                {
+                  "id": 8,
+                  "value": 0.5
+                },
+                {
+                  "id": 9,
+                  "value": 0.507002473
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.652502477
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                }
+              ],
+              "leftModuleId": 150,
+              "rightModuleId": 98,
+              "data": {
+                "t_deja_vu": true,
+                "x_deja_vu": false,
+                "t_mode": 1,
+                "x_mode": 2,
+                "t_range": 0,
+                "x_range": 2,
+                "external": false,
+                "x_scale": 0,
+                "y_divider_index": 8,
+                "x_clock_source_internal": 0
+              }
+            }
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          }
+        ]
+      },
+      "pos": [
+        55,
+        0
       ]
     }
   ],
@@ -7756,14 +8232,6 @@
       "outputId": 0,
       "inputModuleId": 0,
       "inputId": 2,
-      "color": "#0986ad"
-    },
-    {
-      "id": 184,
-      "outputModuleId": 25,
-      "outputId": 4,
-      "inputModuleId": 12,
-      "inputId": 6,
       "color": "#0986ad"
     },
     {
@@ -8343,14 +8811,6 @@
       "color": "#0986ad"
     },
     {
-      "id": 486,
-      "outputModuleId": 70,
-      "outputId": 6,
-      "inputModuleId": 77,
-      "inputId": 6,
-      "color": "#c91847"
-    },
-    {
       "id": 495,
       "outputModuleId": 2,
       "outputId": 1,
@@ -8361,9 +8821,41 @@
     {
       "id": 490,
       "outputModuleId": 153,
-      "outputId": 5,
+      "outputId": 4,
       "inputModuleId": 155,
       "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 536,
+      "outputModuleId": 25,
+      "outputId": 3,
+      "inputModuleId": 12,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 537,
+      "outputModuleId": 70,
+      "outputId": 4,
+      "inputModuleId": 12,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 539,
+      "outputModuleId": 70,
+      "outputId": 4,
+      "inputModuleId": 152,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 541,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 77,
+      "inputId": 6,
       "color": "#c91847"
     }
   ]
