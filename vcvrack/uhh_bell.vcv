@@ -1,0 +1,8862 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 0,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 7,
+      "rightModuleId": 49,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "default",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 256
+        }
+      },
+      "pos": [
+        87,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "plugin": "JW-Modules",
+      "version": "1.0.29",
+      "model": "Str1ker",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 5.0
+        },
+        {
+          "id": 2,
+          "value": 2.0
+        },
+        {
+          "id": 3,
+          "value": 59.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 5,
+          "value": 14.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 13,
+      "data": {
+        "clockMult": 4,
+        "faderVal": -0.15553385
+      },
+      "pos": [
+        29,
+        2
+      ]
+    },
+    {
+      "id": 7,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-Mix4",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.909090936
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 0.909090936
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 0.00150001049
+        },
+        {
+          "id": 7,
+          "value": -1.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": -1.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.909090936
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 50,
+      "rightModuleId": 0,
+      "data": {
+        "dim_decibels": 12.0,
+        "poly_channel_offset": -1
+      },
+      "pos": [
+        72,
+        2
+      ]
+    },
+    {
+      "id": 12,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Plaits",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": -1.58399951
+        },
+        {
+          "id": 3,
+          "value": 0.809501052
+        },
+        {
+          "id": 4,
+          "value": 0.583500028
+        },
+        {
+          "id": 5,
+          "value": 0.309001178
+        },
+        {
+          "id": 6,
+          "value": -0.733999968
+        },
+        {
+          "id": 7,
+          "value": 0.804998875
+        },
+        {
+          "id": 8,
+          "value": 0.621999502
+        },
+        {
+          "id": 9,
+          "value": 0.5
+        },
+        {
+          "id": 10,
+          "value": 0.5
+        }
+      ],
+      "leftModuleId": 13,
+      "rightModuleId": 30,
+      "data": {
+        "lowCpu": false,
+        "model": 13
+      },
+      "pos": [
+        49,
+        2
+      ]
+    },
+    {
+      "id": 13,
+      "plugin": "RareBreeds_Orbits",
+      "version": "1.2.0",
+      "model": "RareBreeds_Orbits_Eugene",
+      "params": [
+        {
+          "id": 0,
+          "value": 17.1820087
+        },
+        {
+          "id": 1,
+          "value": 0.590497136
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.150998175
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 2,
+      "rightModuleId": 12,
+      "data": {
+        "eoc": 0,
+        "widget": {
+          "theme": "Dark"
+        }
+      },
+      "pos": [
+        37,
+        2
+      ]
+    },
+    {
+      "id": 14,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 57,
+      "rightModuleId": 154,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        104,
+        3
+      ]
+    },
+    {
+      "id": 25,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-LFO",
+      "params": [
+        {
+          "id": 0,
+          "value": -3.61551094
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.353999943
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 35,
+      "rightModuleId": 43,
+      "data": {
+        "offset_cv_to_smoothing": false
+      },
+      "pos": [
+        41,
+        3
+      ]
+    },
+    {
+      "id": 30,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Ripples",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.286499977
+        },
+        {
+          "id": 1,
+          "value": 9.862854
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 12,
+      "rightModuleId": 50,
+      "pos": [
+        61,
+        2
+      ]
+    },
+    {
+      "id": 35,
+      "plugin": "Valley",
+      "version": "1.1.7",
+      "model": "Plateau",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.339000285
+        },
+        {
+          "id": 2,
+          "value": 0.135750055
+        },
+        {
+          "id": 3,
+          "value": 10.0
+        },
+        {
+          "id": 4,
+          "value": 10.0
+        },
+        {
+          "id": 5,
+          "value": 0.192500472
+        },
+        {
+          "id": 6,
+          "value": 3.22500038
+        },
+        {
+          "id": 7,
+          "value": 0.339374393
+        },
+        {
+          "id": 8,
+          "value": 6.69998884
+        },
+        {
+          "id": 9,
+          "value": 10.0
+        },
+        {
+          "id": 10,
+          "value": 1.0
+        },
+        {
+          "id": 11,
+          "value": 0.716498017
+        },
+        {
+          "id": 12,
+          "value": 16.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 1.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 1.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.810998678
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 1.0
+        },
+        {
+          "id": 24,
+          "value": 1.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 1.0
+        }
+      ],
+      "rightModuleId": 25,
+      "data": {
+        "frozen": false,
+        "freezeToggle": true,
+        "panelStyle": 0,
+        "tuned": 0,
+        "diffuseInput": 1,
+        "preDelayCVSens": 0,
+        "inputSensitivity": 0,
+        "outputSaturation": 0
+      },
+      "pos": [
+        29,
+        3
+      ]
+    },
+    {
+      "id": 43,
+      "plugin": "voxglitch",
+      "version": "1.32.0",
+      "model": "ghosts",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.435000002
+        },
+        {
+          "id": 3,
+          "value": 0.597002447
+        },
+        {
+          "id": 4,
+          "value": 0.259539396
+        },
+        {
+          "id": 5,
+          "value": 0.553500652
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        },
+        {
+          "id": 8,
+          "value": 0.0448499918
+        },
+        {
+          "id": 9,
+          "value": 0.0329999961
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 1.21000147
+        },
+        {
+          "id": 12,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 25,
+      "rightModuleId": 44,
+      "data": {
+        "path": "/home/idoleat/DampAir/vcvrack/bus.wav"
+      },
+      "pos": [
+        51,
+        3
+      ]
+    },
+    {
+      "id": 44,
+      "plugin": "Instruo",
+      "version": "1.1.0",
+      "model": "tagh",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.869499087
+        },
+        {
+          "id": 3,
+          "value": 0.431999922
+        },
+        {
+          "id": 4,
+          "value": 0.382502228
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 43,
+      "rightModuleId": 46,
+      "data": {
+        "deviations": {
+          "noiseOffset": 0.5
+        }
+      },
+      "pos": [
+        68,
+        3
+      ]
+    },
+    {
+      "id": 46,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-LFO",
+      "params": [
+        {
+          "id": 0,
+          "value": -2.06642151
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.353999943
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 44,
+      "rightModuleId": 57,
+      "data": {
+        "offset_cv_to_smoothing": false
+      },
+      "pos": [
+        82,
+        3
+      ]
+    },
+    {
+      "id": 48,
+      "plugin": "VultModulesFree",
+      "version": "1.16",
+      "model": "Basal",
+      "params": [
+        {
+          "id": 0,
+          "value": -0.47399959
+        },
+        {
+          "id": 1,
+          "value": -0.458999842
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.282999784
+        },
+        {
+          "id": 4,
+          "value": 0.546999693
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 84,
+      "rightModuleId": 77,
+      "pos": [
+        127,
+        2
+      ]
+    },
+    {
+      "id": 49,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-Mix4",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.909090936
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": -1.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.00150001049
+        },
+        {
+          "id": 10,
+          "value": -0.273000151
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.909090936
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 0,
+      "rightModuleId": 84,
+      "data": {
+        "skin": "light",
+        "dim_decibels": 12.0,
+        "poly_channel_offset": -1
+      },
+      "pos": [
+        97,
+        2
+      ]
+    },
+    {
+      "id": 50,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-LLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": -3.04201984
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.00450000167
+        }
+      ],
+      "leftModuleId": 30,
+      "rightModuleId": 7,
+      "data": {
+        "output_sampling": 0.0,
+        "pulse_width": -0.851063788,
+        "smoothing": 0.0
+      },
+      "pos": [
+        69,
+        2
+      ]
+    },
+    {
+      "id": 57,
+      "plugin": "Valley",
+      "version": "1.1.7",
+      "model": "Plateau",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.68900001
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 10.0
+        },
+        {
+          "id": 4,
+          "value": 10.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 9.8250351
+        },
+        {
+          "id": 7,
+          "value": 0.53375417
+        },
+        {
+          "id": 8,
+          "value": 10.0
+        },
+        {
+          "id": 9,
+          "value": 10.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.5
+        },
+        {
+          "id": 12,
+          "value": 0.5
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 1.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": -0.228000164
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 46,
+      "rightModuleId": 14,
+      "data": {
+        "frozen": false,
+        "freezeToggle": true,
+        "panelStyle": 0,
+        "tuned": 0,
+        "diffuseInput": 1,
+        "preDelayCVSens": 0,
+        "inputSensitivity": 0,
+        "outputSaturation": 0
+      },
+      "pos": [
+        92,
+        3
+      ]
+    },
+    {
+      "id": 68,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Braids",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": -1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.548498094
+        }
+      ],
+      "rightModuleId": 151,
+      "data": {
+        "settings": [
+          25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "lowCpu": false
+      },
+      "pos": [
+        29,
+        1
+      ]
+    },
+    {
+      "id": 69,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Clouds",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.741501689
+        },
+        {
+          "id": 4,
+          "value": 0.627003014
+        },
+        {
+          "id": 5,
+          "value": 0.0640049279
+        },
+        {
+          "id": 6,
+          "value": 0.5
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        },
+        {
+          "id": 8,
+          "value": 0.814503789
+        },
+        {
+          "id": 9,
+          "value": 0.902500749
+        },
+        {
+          "id": 10,
+          "value": 0.921999454
+        },
+        {
+          "id": 11,
+          "value": 0.478501588
+        },
+        {
+          "id": 12,
+          "value": 0.838503301
+        }
+      ],
+      "leftModuleId": 151,
+      "rightModuleId": 150,
+      "data": {
+        "playback": 0,
+        "quality": 0,
+        "blendMode": 2
+      },
+      "pos": [
+        49,
+        1
+      ]
+    },
+    {
+      "id": 70,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Marbles",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.68450129
+        },
+        {
+          "id": 3,
+          "value": 0.401999772
+        },
+        {
+          "id": 4,
+          "value": 0.749001741
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.537001431
+        },
+        {
+          "id": 8,
+          "value": 0.5
+        },
+        {
+          "id": 9,
+          "value": 0.708002508
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.652502477
+        },
+        {
+          "id": 14,
+          "value": 0.873004079
+        }
+      ],
+      "leftModuleId": 150,
+      "rightModuleId": 98,
+      "data": {
+        "t_deja_vu": true,
+        "x_deja_vu": true,
+        "t_mode": 1,
+        "x_mode": 2,
+        "t_range": 0,
+        "x_range": 2,
+        "external": false,
+        "x_scale": 0,
+        "y_divider_index": 8,
+        "x_clock_source_internal": 0
+      },
+      "pos": [
+        71,
+        1
+      ]
+    },
+    {
+      "id": 72,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 98,
+      "rightModuleId": 148,
+      "text": "Performance Controls:\n1. 4 modes of texture synth\n2. random sample parmater\n3. DaDaDa\n4. BusStation\n5. BusStation pitch attn\n6. Change polygene\n\nCan be more generative/random\nMRT Sample haven't used.Experiment connecting high freq LFO to everywhere more.\n\nFinal integration:\nmake some control interface to fade between them.",
+      "pos": [
+        97,
+        1
+      ]
+    },
+    {
+      "id": 77,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Rings",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 20.4300003
+        },
+        {
+          "id": 3,
+          "value": 0.886503696
+        },
+        {
+          "id": 4,
+          "value": 0.582998335
+        },
+        {
+          "id": 5,
+          "value": 0.920499563
+        },
+        {
+          "id": 6,
+          "value": 0.328001142
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 1.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.903001428
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 48,
+      "rightModuleId": 83,
+      "data": {
+        "polyphony": 2,
+        "model": 1,
+        "easterEgg": false
+      },
+      "pos": [
+        133,
+        2
+      ]
+    },
+    {
+      "id": 78,
+      "plugin": "AlrightDevices",
+      "version": "1.0.3",
+      "model": "Chronoblob2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.820499897
+        },
+        {
+          "id": 1,
+          "value": 0.0407813936
+        },
+        {
+          "id": 2,
+          "value": 0.763001025
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.654000401
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 154,
+      "rightModuleId": 81,
+      "data": {
+        "delay_mode": 0,
+        "hold_behavior": 0,
+        "sync_prescaler": 6
+      },
+      "pos": [
+        122,
+        3
+      ]
+    },
+    {
+      "id": 79,
+      "plugin": "AlrightDevices",
+      "version": "1.0.3",
+      "model": "Zzzorb",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.205498055
+        },
+        {
+          "id": 1,
+          "value": 0.815500975
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.993999839
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 92,
+      "rightModuleId": 97,
+      "pos": [
+        146,
+        1
+      ]
+    },
+    {
+      "id": 81,
+      "plugin": "RareBreeds_Orbits",
+      "version": "1.2.0",
+      "model": "RareBreeds_Orbits_Polygene",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.937476337
+        },
+        {
+          "id": 1,
+          "value": 23.1269646
+        },
+        {
+          "id": 2,
+          "value": 0.513878405
+        },
+        {
+          "id": 3,
+          "value": 25.0550613
+        },
+        {
+          "id": 4,
+          "value": 0.430000514
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 78,
+      "rightModuleId": 153,
+      "data": {
+        "length": 23.1269646,
+        "hits": 0.513878405,
+        "shift": 25.0550613,
+        "variation": 0.430000514,
+        "eoc": 0,
+        "active_channel_id": 1,
+        "channels": [
+          {
+            "length": 24.0735455,
+            "hits": 0.798279285,
+            "shift": 7.58222866,
+            "variation": 0.579298675,
+            "reverse": false,
+            "invert": false
+          },
+          {
+            "length": 23.1269646,
+            "hits": 0.513878405,
+            "shift": 25.0550613,
+            "variation": 0.430000514,
+            "reverse": false,
+            "invert": false
+          },
+          {
+            "length": 30.0883484,
+            "hits": 0.879505038,
+            "shift": 30.1370544,
+            "variation": 0.470073581,
+            "reverse": true,
+            "invert": false
+          },
+          {
+            "length": 14.3738661,
+            "hits": 0.594655633,
+            "shift": 22.717205,
+            "variation": 0.372293353,
+            "reverse": false,
+            "invert": true
+          },
+          {
+            "length": 30.0990944,
+            "hits": 0.512210667,
+            "shift": 21.5351753,
+            "variation": 0.0206664205,
+            "reverse": false,
+            "invert": true
+          },
+          {
+            "length": 25.1987629,
+            "hits": 0.844488263,
+            "shift": 24.0941086,
+            "variation": 0.215512455,
+            "reverse": false,
+            "invert": false
+          },
+          {
+            "length": 19.3547459,
+            "hits": 0.0385873318,
+            "shift": 5.38589478,
+            "variation": 0.488597393,
+            "reverse": true,
+            "invert": false
+          },
+          {
+            "length": 6.56181908,
+            "hits": 0.559370756,
+            "shift": 7.28209019,
+            "variation": 0.738799334,
+            "reverse": true,
+            "invert": true
+          },
+          {
+            "length": 23.4964275,
+            "hits": 0.825054824,
+            "shift": 16.1925907,
+            "variation": 0.0997999907,
+            "reverse": false,
+            "invert": true
+          },
+          {
+            "length": 30.9476261,
+            "hits": 0.689943552,
+            "shift": 5.51693678,
+            "variation": 0.346533358,
+            "reverse": true,
+            "invert": false
+          },
+          {
+            "length": 28.6815987,
+            "hits": 0.44831425,
+            "shift": 25.71595,
+            "variation": 0.998306036,
+            "reverse": false,
+            "invert": false
+          },
+          {
+            "length": 26.0411377,
+            "hits": 0.267815411,
+            "shift": 15.6327257,
+            "variation": 0.257288396,
+            "reverse": false,
+            "invert": true
+          },
+          {
+            "length": 22.5554886,
+            "hits": 0.422378302,
+            "shift": 26.1359196,
+            "variation": 0.486164212,
+            "reverse": true,
+            "invert": false
+          },
+          {
+            "length": 12.6665154,
+            "hits": 0.00223886967,
+            "shift": 3.31989336,
+            "variation": 0.212656736,
+            "reverse": false,
+            "invert": false
+          },
+          {
+            "length": 10.6387062,
+            "hits": 0.533174336,
+            "shift": 2.87763023,
+            "variation": 0.882692039,
+            "reverse": true,
+            "invert": true
+          },
+          {
+            "length": 23.0219173,
+            "hits": 0.49608469,
+            "shift": 26.0510426,
+            "variation": 0.513805747,
+            "reverse": false,
+            "invert": false
+          }
+        ],
+        "widget": {
+          "theme": "Light"
+        }
+      },
+      "pos": [
+        134,
+        3
+      ]
+    },
+    {
+      "id": 83,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 0.695999026
+        }
+      ],
+      "leftModuleId": 77,
+      "rightModuleId": 89,
+      "pos": [
+        147,
+        2
+      ]
+    },
+    {
+      "id": 84,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-Mix4",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": -1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.909090936
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 49,
+      "rightModuleId": 48,
+      "data": {
+        "dim_decibels": 12.0,
+        "poly_channel_offset": -1
+      },
+      "pos": [
+        112,
+        2
+      ]
+    },
+    {
+      "id": 86,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "PlateVerb",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0735000074
+        },
+        {
+          "id": 1,
+          "value": 0.668002427
+        },
+        {
+          "id": 2,
+          "value": 0.14699997
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.764498353
+        },
+        {
+          "id": 8,
+          "value": 0.899999976
+        },
+        {
+          "id": 9,
+          "value": 0.898501217
+        },
+        {
+          "id": 10,
+          "value": 0.767498672
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 148,
+      "rightModuleId": 95,
+      "pos": [
+        119,
+        1
+      ]
+    },
+    {
+      "id": 89,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-LFO",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.5
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.295502096
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.67750001
+        },
+        {
+          "id": 6,
+          "value": 0.351000041
+        }
+      ],
+      "leftModuleId": 83,
+      "data": {
+        "offset_cv_to_smoothing": false
+      },
+      "pos": [
+        155,
+        2
+      ]
+    },
+    {
+      "id": 92,
+      "plugin": "Valley",
+      "version": "1.1.7",
+      "model": "Plateau",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.135750055
+        },
+        {
+          "id": 3,
+          "value": 10.0
+        },
+        {
+          "id": 4,
+          "value": 10.0
+        },
+        {
+          "id": 5,
+          "value": 0.750998318
+        },
+        {
+          "id": 6,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 0.6880849
+        },
+        {
+          "id": 8,
+          "value": 10.0
+        },
+        {
+          "id": 9,
+          "value": 7.13499165
+        },
+        {
+          "id": 10,
+          "value": 1.0
+        },
+        {
+          "id": 11,
+          "value": 1.0
+        },
+        {
+          "id": 12,
+          "value": 16.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 1.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 1.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.810998678
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 1.0
+        },
+        {
+          "id": 24,
+          "value": 1.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 95,
+      "rightModuleId": 79,
+      "data": {
+        "frozen": false,
+        "freezeToggle": true,
+        "panelStyle": 0,
+        "tuned": 0,
+        "diffuseInput": 1,
+        "preDelayCVSens": 0,
+        "inputSensitivity": 0,
+        "outputSaturation": 0
+      },
+      "pos": [
+        134,
+        1
+      ]
+    },
+    {
+      "id": 95,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "ScaleOffset",
+      "params": [
+        {
+          "id": 0,
+          "value": 19.9599686
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": -54.5999451
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 86,
+      "rightModuleId": 92,
+      "data": {
+        "m_snapped": false
+      },
+      "pos": [
+        126,
+        1
+      ]
+    },
+    {
+      "id": 97,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "MVerb",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.65799588
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.5
+        },
+        {
+          "id": 3,
+          "value": 0.882999182
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        },
+        {
+          "id": 5,
+          "value": 0.680000007
+        },
+        {
+          "id": 6,
+          "value": 0.600000024
+        },
+        {
+          "id": 7,
+          "value": 0.800000012
+        },
+        {
+          "id": 8,
+          "value": 0.5
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 79,
+      "pos": [
+        156,
+        1
+      ]
+    },
+    {
+      "id": 98,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "ScaleOffset",
+      "params": [
+        {
+          "id": 0,
+          "value": -10.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": -54.5999451
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 70,
+      "rightModuleId": 72,
+      "data": {
+        "m_snapped": false
+      },
+      "pos": [
+        89,
+        1
+      ]
+    },
+    {
+      "id": 110,
+      "plugin": "MindMeldModular",
+      "version": "1.1.14",
+      "model": "ShapeMaster",
+      "params": [
+        {
+          "id": 0,
+          "value": 5.0
+        },
+        {
+          "id": 1,
+          "value": 0.0789971948
+        },
+        {
+          "id": 2,
+          "value": 100.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 1.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": -1.0
+        },
+        {
+          "id": 12,
+          "value": 1.0
+        },
+        {
+          "id": 13,
+          "value": 1.0
+        },
+        {
+          "id": 14,
+          "value": 5.0
+        },
+        {
+          "id": 15,
+          "value": 1.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 5.0
+        },
+        {
+          "id": 26,
+          "value": -0.240634769
+        },
+        {
+          "id": 27,
+          "value": 100.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        },
+        {
+          "id": 32,
+          "value": 0.0
+        },
+        {
+          "id": 33,
+          "value": 1.0
+        },
+        {
+          "id": 34,
+          "value": 0.0
+        },
+        {
+          "id": 35,
+          "value": 0.0
+        },
+        {
+          "id": 36,
+          "value": -1.0
+        },
+        {
+          "id": 37,
+          "value": 1.0
+        },
+        {
+          "id": 38,
+          "value": 1.0
+        },
+        {
+          "id": 39,
+          "value": 5.0
+        },
+        {
+          "id": 40,
+          "value": 1.0
+        },
+        {
+          "id": 41,
+          "value": 0.0
+        },
+        {
+          "id": 42,
+          "value": 0.0
+        },
+        {
+          "id": 43,
+          "value": 0.0
+        },
+        {
+          "id": 44,
+          "value": 0.0
+        },
+        {
+          "id": 45,
+          "value": 0.0
+        },
+        {
+          "id": 46,
+          "value": 0.0
+        },
+        {
+          "id": 47,
+          "value": 0.0
+        },
+        {
+          "id": 48,
+          "value": 0.0
+        },
+        {
+          "id": 49,
+          "value": 0.0
+        },
+        {
+          "id": 50,
+          "value": 5.0
+        },
+        {
+          "id": 51,
+          "value": 0.0
+        },
+        {
+          "id": 52,
+          "value": 100.0
+        },
+        {
+          "id": 53,
+          "value": 0.0
+        },
+        {
+          "id": 54,
+          "value": 0.0
+        },
+        {
+          "id": 55,
+          "value": 0.0
+        },
+        {
+          "id": 56,
+          "value": 0.0
+        },
+        {
+          "id": 57,
+          "value": 0.0
+        },
+        {
+          "id": 58,
+          "value": 1.0
+        },
+        {
+          "id": 59,
+          "value": 0.0
+        },
+        {
+          "id": 60,
+          "value": 0.0
+        },
+        {
+          "id": 61,
+          "value": -1.0
+        },
+        {
+          "id": 62,
+          "value": 1.0
+        },
+        {
+          "id": 63,
+          "value": 1.0
+        },
+        {
+          "id": 64,
+          "value": 5.0
+        },
+        {
+          "id": 65,
+          "value": 1.0
+        },
+        {
+          "id": 66,
+          "value": 0.0
+        },
+        {
+          "id": 67,
+          "value": 0.0
+        },
+        {
+          "id": 68,
+          "value": 0.0
+        },
+        {
+          "id": 69,
+          "value": 0.0
+        },
+        {
+          "id": 70,
+          "value": 0.0
+        },
+        {
+          "id": 71,
+          "value": 0.0
+        },
+        {
+          "id": 72,
+          "value": 0.0
+        },
+        {
+          "id": 73,
+          "value": 0.0
+        },
+        {
+          "id": 74,
+          "value": 0.0
+        },
+        {
+          "id": 75,
+          "value": 5.0
+        },
+        {
+          "id": 76,
+          "value": 0.0
+        },
+        {
+          "id": 77,
+          "value": 100.0
+        },
+        {
+          "id": 78,
+          "value": 0.0
+        },
+        {
+          "id": 79,
+          "value": 0.0
+        },
+        {
+          "id": 80,
+          "value": 0.0
+        },
+        {
+          "id": 81,
+          "value": 0.0
+        },
+        {
+          "id": 82,
+          "value": 0.0
+        },
+        {
+          "id": 83,
+          "value": 1.0
+        },
+        {
+          "id": 84,
+          "value": 0.0
+        },
+        {
+          "id": 85,
+          "value": 0.0
+        },
+        {
+          "id": 86,
+          "value": -1.0
+        },
+        {
+          "id": 87,
+          "value": 1.0
+        },
+        {
+          "id": 88,
+          "value": 1.0
+        },
+        {
+          "id": 89,
+          "value": 5.0
+        },
+        {
+          "id": 90,
+          "value": 1.0
+        },
+        {
+          "id": 91,
+          "value": 0.0
+        },
+        {
+          "id": 92,
+          "value": 0.0
+        },
+        {
+          "id": 93,
+          "value": 0.0
+        },
+        {
+          "id": 94,
+          "value": 0.0
+        },
+        {
+          "id": 95,
+          "value": 0.0
+        },
+        {
+          "id": 96,
+          "value": 0.0
+        },
+        {
+          "id": 97,
+          "value": 0.0
+        },
+        {
+          "id": 98,
+          "value": 0.0
+        },
+        {
+          "id": 99,
+          "value": 0.0
+        },
+        {
+          "id": 100,
+          "value": 5.0
+        },
+        {
+          "id": 101,
+          "value": 0.0
+        },
+        {
+          "id": 102,
+          "value": 100.0
+        },
+        {
+          "id": 103,
+          "value": 0.0
+        },
+        {
+          "id": 104,
+          "value": 0.0
+        },
+        {
+          "id": 105,
+          "value": 0.0
+        },
+        {
+          "id": 106,
+          "value": 0.0
+        },
+        {
+          "id": 107,
+          "value": 0.0
+        },
+        {
+          "id": 108,
+          "value": 1.0
+        },
+        {
+          "id": 109,
+          "value": 0.0
+        },
+        {
+          "id": 110,
+          "value": 0.0
+        },
+        {
+          "id": 111,
+          "value": -1.0
+        },
+        {
+          "id": 112,
+          "value": 1.0
+        },
+        {
+          "id": 113,
+          "value": 1.0
+        },
+        {
+          "id": 114,
+          "value": 5.0
+        },
+        {
+          "id": 115,
+          "value": 1.0
+        },
+        {
+          "id": 116,
+          "value": 0.0
+        },
+        {
+          "id": 117,
+          "value": 0.0
+        },
+        {
+          "id": 118,
+          "value": 0.0
+        },
+        {
+          "id": 119,
+          "value": 0.0
+        },
+        {
+          "id": 120,
+          "value": 0.0
+        },
+        {
+          "id": 121,
+          "value": 0.0
+        },
+        {
+          "id": 122,
+          "value": 0.0
+        },
+        {
+          "id": 123,
+          "value": 0.0
+        },
+        {
+          "id": 124,
+          "value": 0.0
+        },
+        {
+          "id": 125,
+          "value": 5.0
+        },
+        {
+          "id": 126,
+          "value": 0.0
+        },
+        {
+          "id": 127,
+          "value": 100.0
+        },
+        {
+          "id": 128,
+          "value": 0.0
+        },
+        {
+          "id": 129,
+          "value": 0.0
+        },
+        {
+          "id": 130,
+          "value": 0.0
+        },
+        {
+          "id": 131,
+          "value": 0.0
+        },
+        {
+          "id": 132,
+          "value": 0.0
+        },
+        {
+          "id": 133,
+          "value": 1.0
+        },
+        {
+          "id": 134,
+          "value": 0.0
+        },
+        {
+          "id": 135,
+          "value": 0.0
+        },
+        {
+          "id": 136,
+          "value": -1.0
+        },
+        {
+          "id": 137,
+          "value": 1.0
+        },
+        {
+          "id": 138,
+          "value": 1.0
+        },
+        {
+          "id": 139,
+          "value": 5.0
+        },
+        {
+          "id": 140,
+          "value": 1.0
+        },
+        {
+          "id": 141,
+          "value": 0.0
+        },
+        {
+          "id": 142,
+          "value": 0.0
+        },
+        {
+          "id": 143,
+          "value": 0.0
+        },
+        {
+          "id": 144,
+          "value": 0.0
+        },
+        {
+          "id": 145,
+          "value": 0.0
+        },
+        {
+          "id": 146,
+          "value": 0.0
+        },
+        {
+          "id": 147,
+          "value": 0.0
+        },
+        {
+          "id": 148,
+          "value": 0.0
+        },
+        {
+          "id": 149,
+          "value": 0.0
+        },
+        {
+          "id": 150,
+          "value": 5.0
+        },
+        {
+          "id": 151,
+          "value": 0.0
+        },
+        {
+          "id": 152,
+          "value": 100.0
+        },
+        {
+          "id": 153,
+          "value": 0.0
+        },
+        {
+          "id": 154,
+          "value": 0.0
+        },
+        {
+          "id": 155,
+          "value": 0.0
+        },
+        {
+          "id": 156,
+          "value": 0.0
+        },
+        {
+          "id": 157,
+          "value": 0.0
+        },
+        {
+          "id": 158,
+          "value": 1.0
+        },
+        {
+          "id": 159,
+          "value": 0.0
+        },
+        {
+          "id": 160,
+          "value": 0.0
+        },
+        {
+          "id": 161,
+          "value": -1.0
+        },
+        {
+          "id": 162,
+          "value": 1.0
+        },
+        {
+          "id": 163,
+          "value": 1.0
+        },
+        {
+          "id": 164,
+          "value": 5.0
+        },
+        {
+          "id": 165,
+          "value": 1.0
+        },
+        {
+          "id": 166,
+          "value": 0.0
+        },
+        {
+          "id": 167,
+          "value": 0.0
+        },
+        {
+          "id": 168,
+          "value": 0.0
+        },
+        {
+          "id": 169,
+          "value": 0.0
+        },
+        {
+          "id": 170,
+          "value": 0.0
+        },
+        {
+          "id": 171,
+          "value": 0.0
+        },
+        {
+          "id": 172,
+          "value": 0.0
+        },
+        {
+          "id": 173,
+          "value": 0.0
+        },
+        {
+          "id": 174,
+          "value": 0.0
+        },
+        {
+          "id": 175,
+          "value": 5.0
+        },
+        {
+          "id": 176,
+          "value": 0.0
+        },
+        {
+          "id": 177,
+          "value": 100.0
+        },
+        {
+          "id": 178,
+          "value": 0.0
+        },
+        {
+          "id": 179,
+          "value": 0.0
+        },
+        {
+          "id": 180,
+          "value": 0.0
+        },
+        {
+          "id": 181,
+          "value": 0.0
+        },
+        {
+          "id": 182,
+          "value": 0.0
+        },
+        {
+          "id": 183,
+          "value": 1.0
+        },
+        {
+          "id": 184,
+          "value": 0.0
+        },
+        {
+          "id": 185,
+          "value": 0.0
+        },
+        {
+          "id": 186,
+          "value": -1.0
+        },
+        {
+          "id": 187,
+          "value": 1.0
+        },
+        {
+          "id": 188,
+          "value": 1.0
+        },
+        {
+          "id": 189,
+          "value": 5.0
+        },
+        {
+          "id": 190,
+          "value": 1.0
+        },
+        {
+          "id": 191,
+          "value": 0.0
+        },
+        {
+          "id": 192,
+          "value": 0.0
+        },
+        {
+          "id": 193,
+          "value": 0.0
+        },
+        {
+          "id": 194,
+          "value": 0.0
+        },
+        {
+          "id": 195,
+          "value": 0.0
+        },
+        {
+          "id": 196,
+          "value": 0.0
+        },
+        {
+          "id": 197,
+          "value": 0.0
+        },
+        {
+          "id": 198,
+          "value": 0.0
+        },
+        {
+          "id": 199,
+          "value": 0.0
+        },
+        {
+          "id": 200,
+          "value": 0.0
+        },
+        {
+          "id": 201,
+          "value": 0.0
+        },
+        {
+          "id": 202,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 114,
+      "data": {
+        "running": true,
+        "ppqn": 48,
+        "ppqnAvg": 4,
+        "clockPeriodSynced": 0.5,
+        "miscSettings": 16842755,
+        "miscSettings2": 256,
+        "miscSettings3": 0,
+        "lineWidth": 1.0,
+        "channels": [
+          {
+            "hpfCutoffSqFreq": 3.60555124,
+            "lpfCutoffSqFreq": 144.913773,
+            "sensitivity": 0.5,
+            "gainAdjustSc": 1.0,
+            "gridX": 16,
+            "rangeIndex": 0,
+            "channelSettings": 0,
+            "channelSettings2": 65808,
+            "presetPath": "",
+            "shapePath": "",
+            "gainAdjustVca": 1.0,
+            "chanName": "Channel 1",
+            "r_numNodesMin": 5.0,
+            "r_numNodesMax": 30.0,
+            "r_ctrlMax": 100.0,
+            "r_zeroV": 0.0,
+            "r_maxV": 0.0,
+            "r_scale": 4095,
+            "r_stepped": 0,
+            "r_grid": 0,
+            "r_quantized": 0,
+            "shape": {
+              "pointsX": [
+                0.0,
+                0.000100016594,
+                1.0
+              ],
+              "pointsY": [
+                0.0,
+                0.791593313,
+                0.0
+              ],
+              "ctrl": [
+                0.5,
+                0.260320306,
+                0.5
+              ],
+              "type": [
+                0,
+                0,
+                0
+              ],
+              "numPts": 3
+            },
+            "playMode": 0,
+            "triggerMode": 0,
+            "hysteresis": 0.200000003,
+            "holdOff": 0.00999999978,
+            "loopStart": 0.5,
+            "loopEndAndSustain": 0.75,
+            "playHeadSettings": 16843008,
+            "playHeadSettings2": 65536,
+            "playHeadSettings3": 0
+          },
+          {
+            "hpfCutoffSqFreq": 3.60555124,
+            "lpfCutoffSqFreq": 144.913773,
+            "sensitivity": 0.5,
+            "gainAdjustSc": 1.0,
+            "gridX": 16,
+            "rangeIndex": 0,
+            "channelSettings": 256,
+            "channelSettings2": 65808,
+            "presetPath": "",
+            "shapePath": "",
+            "gainAdjustVca": 1.0,
+            "chanName": "Channel 2",
+            "r_numNodesMin": 5.0,
+            "r_numNodesMax": 30.0,
+            "r_ctrlMax": 100.0,
+            "r_zeroV": 0.0,
+            "r_maxV": 0.0,
+            "r_scale": 4095,
+            "r_stepped": 0,
+            "r_grid": 0,
+            "r_quantized": 0,
+            "shape": {
+              "pointsX": [
+                0.0,
+                0.000100016594,
+                1.0
+              ],
+              "pointsY": [
+                0.0,
+                0.791593313,
+                0.0
+              ],
+              "ctrl": [
+                0.5,
+                0.260320306,
+                0.5
+              ],
+              "type": [
+                0,
+                0,
+                0
+              ],
+              "numPts": 3
+            },
+            "playMode": 0,
+            "triggerMode": 0,
+            "hysteresis": 0.200000003,
+            "holdOff": 0.00999999978,
+            "loopStart": 0.5,
+            "loopEndAndSustain": 0.75,
+            "playHeadSettings": 16843008,
+            "playHeadSettings2": 65536,
+            "playHeadSettings3": 0
+          },
+          {
+            "hpfCutoffSqFreq": 3.60555124,
+            "lpfCutoffSqFreq": 144.913773,
+            "sensitivity": 0.5,
+            "gainAdjustSc": 1.0,
+            "gridX": 16,
+            "rangeIndex": 0,
+            "channelSettings": 512,
+            "channelSettings2": 65552,
+            "presetPath": "",
+            "shapePath": "",
+            "gainAdjustVca": 1.0,
+            "chanName": "Channel 3",
+            "r_numNodesMin": 5.0,
+            "r_numNodesMax": 30.0,
+            "r_ctrlMax": 100.0,
+            "r_zeroV": 0.0,
+            "r_maxV": 0.0,
+            "r_scale": 4095,
+            "r_stepped": 0,
+            "r_grid": 0,
+            "r_quantized": 0,
+            "shape": {
+              "pointsX": [
+                0.0,
+                0.999899983,
+                1.0
+              ],
+              "pointsY": [
+                0.0,
+                0.791593313,
+                0.0
+              ],
+              "ctrl": [
+                0.739679694,
+                0.5,
+                0.5
+              ],
+              "type": [
+                0,
+                0,
+                0
+              ],
+              "numPts": 3
+            },
+            "playMode": 0,
+            "triggerMode": 0,
+            "hysteresis": 0.200000003,
+            "holdOff": 0.00999999978,
+            "loopStart": 0.5,
+            "loopEndAndSustain": 0.75,
+            "playHeadSettings": 16843008,
+            "playHeadSettings2": 65536,
+            "playHeadSettings3": 0
+          },
+          {
+            "hpfCutoffSqFreq": 3.60555124,
+            "lpfCutoffSqFreq": 144.913773,
+            "sensitivity": 0.5,
+            "gainAdjustSc": 1.0,
+            "gridX": 16,
+            "rangeIndex": 0,
+            "channelSettings": 768,
+            "channelSettings2": 65552,
+            "presetPath": "",
+            "shapePath": "",
+            "gainAdjustVca": 1.0,
+            "chanName": "Channel 4",
+            "r_numNodesMin": 5.0,
+            "r_numNodesMax": 30.0,
+            "r_ctrlMax": 100.0,
+            "r_zeroV": 0.0,
+            "r_maxV": 0.0,
+            "r_scale": 4095,
+            "r_stepped": 0,
+            "r_grid": 0,
+            "r_quantized": 0,
+            "shape": {
+              "pointsX": [
+                0.0,
+                0.5,
+                1.0
+              ],
+              "pointsY": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "ctrl": [
+                0.5,
+                0.5,
+                0.5
+              ],
+              "type": [
+                0,
+                0,
+                0
+              ],
+              "numPts": 3
+            },
+            "playMode": 0,
+            "triggerMode": 0,
+            "hysteresis": 0.200000003,
+            "holdOff": 0.00999999978,
+            "loopStart": 0.5,
+            "loopEndAndSustain": 0.75,
+            "playHeadSettings": 16843008,
+            "playHeadSettings2": 65536,
+            "playHeadSettings3": 0
+          },
+          {
+            "hpfCutoffSqFreq": 3.60555124,
+            "lpfCutoffSqFreq": 144.913773,
+            "sensitivity": 0.5,
+            "gainAdjustSc": 1.0,
+            "gridX": 16,
+            "rangeIndex": 0,
+            "channelSettings": 1024,
+            "channelSettings2": 65552,
+            "presetPath": "",
+            "shapePath": "",
+            "gainAdjustVca": 1.0,
+            "chanName": "Channel 5",
+            "r_numNodesMin": 5.0,
+            "r_numNodesMax": 30.0,
+            "r_ctrlMax": 100.0,
+            "r_zeroV": 0.0,
+            "r_maxV": 0.0,
+            "r_scale": 4095,
+            "r_stepped": 0,
+            "r_grid": 0,
+            "r_quantized": 0,
+            "shape": {
+              "pointsX": [
+                0.0,
+                0.5,
+                1.0
+              ],
+              "pointsY": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "ctrl": [
+                0.5,
+                0.5,
+                0.5
+              ],
+              "type": [
+                0,
+                0,
+                0
+              ],
+              "numPts": 3
+            },
+            "playMode": 0,
+            "triggerMode": 0,
+            "hysteresis": 0.200000003,
+            "holdOff": 0.00999999978,
+            "loopStart": 0.5,
+            "loopEndAndSustain": 0.75,
+            "playHeadSettings": 16843008,
+            "playHeadSettings2": 65536,
+            "playHeadSettings3": 0
+          },
+          {
+            "hpfCutoffSqFreq": 3.60555124,
+            "lpfCutoffSqFreq": 144.913773,
+            "sensitivity": 0.5,
+            "gainAdjustSc": 1.0,
+            "gridX": 16,
+            "rangeIndex": 0,
+            "channelSettings": 1280,
+            "channelSettings2": 65552,
+            "presetPath": "",
+            "shapePath": "",
+            "gainAdjustVca": 1.0,
+            "chanName": "Channel 6",
+            "r_numNodesMin": 5.0,
+            "r_numNodesMax": 30.0,
+            "r_ctrlMax": 100.0,
+            "r_zeroV": 0.0,
+            "r_maxV": 0.0,
+            "r_scale": 4095,
+            "r_stepped": 0,
+            "r_grid": 0,
+            "r_quantized": 0,
+            "shape": {
+              "pointsX": [
+                0.0,
+                0.5,
+                1.0
+              ],
+              "pointsY": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "ctrl": [
+                0.5,
+                0.5,
+                0.5
+              ],
+              "type": [
+                0,
+                0,
+                0
+              ],
+              "numPts": 3
+            },
+            "playMode": 0,
+            "triggerMode": 0,
+            "hysteresis": 0.200000003,
+            "holdOff": 0.00999999978,
+            "loopStart": 0.5,
+            "loopEndAndSustain": 0.75,
+            "playHeadSettings": 16843008,
+            "playHeadSettings2": 65536,
+            "playHeadSettings3": 0
+          },
+          {
+            "hpfCutoffSqFreq": 3.60555124,
+            "lpfCutoffSqFreq": 144.913773,
+            "sensitivity": 0.5,
+            "gainAdjustSc": 1.0,
+            "gridX": 16,
+            "rangeIndex": 0,
+            "channelSettings": 1536,
+            "channelSettings2": 65552,
+            "presetPath": "",
+            "shapePath": "",
+            "gainAdjustVca": 1.0,
+            "chanName": "Channel 7",
+            "r_numNodesMin": 5.0,
+            "r_numNodesMax": 30.0,
+            "r_ctrlMax": 100.0,
+            "r_zeroV": 0.0,
+            "r_maxV": 0.0,
+            "r_scale": 4095,
+            "r_stepped": 0,
+            "r_grid": 0,
+            "r_quantized": 0,
+            "shape": {
+              "pointsX": [
+                0.0,
+                0.5,
+                1.0
+              ],
+              "pointsY": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "ctrl": [
+                0.5,
+                0.5,
+                0.5
+              ],
+              "type": [
+                0,
+                0,
+                0
+              ],
+              "numPts": 3
+            },
+            "playMode": 0,
+            "triggerMode": 0,
+            "hysteresis": 0.200000003,
+            "holdOff": 0.00999999978,
+            "loopStart": 0.5,
+            "loopEndAndSustain": 0.75,
+            "playHeadSettings": 16843008,
+            "playHeadSettings2": 65536,
+            "playHeadSettings3": 0
+          },
+          {
+            "hpfCutoffSqFreq": 3.60555124,
+            "lpfCutoffSqFreq": 144.913773,
+            "sensitivity": 0.5,
+            "gainAdjustSc": 1.0,
+            "gridX": 16,
+            "rangeIndex": 0,
+            "channelSettings": 1792,
+            "channelSettings2": 65552,
+            "presetPath": "",
+            "shapePath": "",
+            "gainAdjustVca": 1.0,
+            "chanName": "Channel 8",
+            "r_numNodesMin": 5.0,
+            "r_numNodesMax": 30.0,
+            "r_ctrlMax": 100.0,
+            "r_zeroV": 0.0,
+            "r_maxV": 0.0,
+            "r_scale": 4095,
+            "r_stepped": 0,
+            "r_grid": 0,
+            "r_quantized": 0,
+            "shape": {
+              "pointsX": [
+                0.0,
+                0.5,
+                1.0
+              ],
+              "pointsY": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "ctrl": [
+                0.5,
+                0.5,
+                0.5
+              ],
+              "type": [
+                0,
+                0,
+                0
+              ],
+              "numPts": 3
+            },
+            "playMode": 0,
+            "triggerMode": 0,
+            "hysteresis": 0.200000003,
+            "holdOff": 0.00999999978,
+            "loopStart": 0.5,
+            "loopEndAndSustain": 0.75,
+            "playHeadSettings": 16843008,
+            "playHeadSettings2": 65536,
+            "playHeadSettings3": 0
+          }
+        ],
+        "currChan": 1
+      },
+      "pos": [
+        115,
+        4
+      ]
+    },
+    {
+      "id": 112,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "ScaleOffset",
+      "params": [
+        {
+          "id": 0,
+          "value": -10.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": -22.2000008
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 130,
+      "rightModuleId": 115,
+      "data": {
+        "m_snapped": false
+      },
+      "pos": [
+        95,
+        4
+      ]
+    },
+    {
+      "id": 114,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-Matrix81",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 115,
+      "rightModuleId": 110,
+      "data": {
+        "clipping_mode": 0,
+        "input_gain_db": 0.0,
+        "sum": true,
+        "indicator_knobs": true
+      },
+      "pos": [
+        109,
+        4
+      ]
+    },
+    {
+      "id": 115,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-Matrix18",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 112,
+      "rightModuleId": 114,
+      "data": {
+        "clipping_mode": 0,
+        "input_gain_db": 0.0,
+        "sum": true,
+        "indicator_knobs": true
+      },
+      "pos": [
+        103,
+        4
+      ]
+    },
+    {
+      "id": 117,
+      "plugin": "Stoermelder-P1",
+      "version": "1.10.0",
+      "model": "EightFaceX2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 122,
+      "data": {
+        "panelTheme": 0,
+        "mode": 1,
+        "pluginSlug": "Bogaudio",
+        "modelSlug": "POLYCON16",
+        "realPluginSlug": "Bogaudio",
+        "realModelSlug": "Bogaudio-PolyCon",
+        "moduleName": "Bogaudio POLYCON16",
+        "slotCvMode": 2,
+        "preset": 15,
+        "presetCount": 16,
+        "presets": [
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 122,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 16.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 1.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.910000026
+                },
+                {
+                  "id": 4,
+                  "value": 0.910000026
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                },
+                {
+                  "id": 8,
+                  "value": 0.0
+                },
+                {
+                  "id": 9,
+                  "value": 0.0
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.0
+                },
+                {
+                  "id": 14,
+                  "value": 0.0
+                },
+                {
+                  "id": 15,
+                  "value": 0.0
+                },
+                {
+                  "id": 16,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 117,
+              "rightModuleId": 119,
+              "data": {
+                "range_offset": 0.0,
+                "range_scale": 10.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 122,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 16.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.682000041
+                },
+                {
+                  "id": 3,
+                  "value": 0.910000026
+                },
+                {
+                  "id": 4,
+                  "value": 0.910000026
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                },
+                {
+                  "id": 8,
+                  "value": 0.0
+                },
+                {
+                  "id": 9,
+                  "value": 0.0
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.0
+                },
+                {
+                  "id": 14,
+                  "value": 0.0
+                },
+                {
+                  "id": 15,
+                  "value": 0.0
+                },
+                {
+                  "id": 16,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 117,
+              "rightModuleId": 119,
+              "data": {
+                "range_offset": 0.0,
+                "range_scale": 10.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 122,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 16.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.722499967
+                },
+                {
+                  "id": 2,
+                  "value": 0.682000041
+                },
+                {
+                  "id": 3,
+                  "value": 0.910000026
+                },
+                {
+                  "id": 4,
+                  "value": 0.910000026
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                },
+                {
+                  "id": 8,
+                  "value": 0.0
+                },
+                {
+                  "id": 9,
+                  "value": 0.0
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.0
+                },
+                {
+                  "id": 14,
+                  "value": 0.0
+                },
+                {
+                  "id": 15,
+                  "value": 0.0
+                },
+                {
+                  "id": 16,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 117,
+              "rightModuleId": 119,
+              "data": {
+                "range_offset": 0.0,
+                "range_scale": 10.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 122,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 16.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.722499967
+                },
+                {
+                  "id": 2,
+                  "value": 1.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.910000026
+                },
+                {
+                  "id": 4,
+                  "value": 0.910000026
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                },
+                {
+                  "id": 8,
+                  "value": 0.0
+                },
+                {
+                  "id": 9,
+                  "value": 0.0
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.0
+                },
+                {
+                  "id": 14,
+                  "value": 0.0
+                },
+                {
+                  "id": 15,
+                  "value": 0.0
+                },
+                {
+                  "id": 16,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 117,
+              "rightModuleId": 119,
+              "data": {
+                "range_offset": 0.0,
+                "range_scale": 10.0
+              }
+            }
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 122,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 16.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 1.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.0
+                },
+                {
+                  "id": 4,
+                  "value": 0.0
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                },
+                {
+                  "id": 8,
+                  "value": 0.0
+                },
+                {
+                  "id": 9,
+                  "value": 0.0
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.0
+                },
+                {
+                  "id": 14,
+                  "value": 0.0
+                },
+                {
+                  "id": 15,
+                  "value": 0.0
+                },
+                {
+                  "id": 16,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 117,
+              "rightModuleId": 119,
+              "data": {
+                "range_offset": 0.0,
+                "range_scale": 10.0
+              }
+            }
+          }
+        ]
+      },
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 119,
+      "plugin": "stocaudio",
+      "version": "1.0.1",
+      "model": "Polyslew",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.800000012
+        },
+        {
+          "id": 3,
+          "value": 0.800000012
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 122,
+      "rightModuleId": 120,
+      "pos": [
+        12,
+        1
+      ]
+    },
+    {
+      "id": 120,
+      "plugin": "Stoermelder-P1",
+      "version": "1.10.0",
+      "model": "CVMap",
+      "params": [],
+      "leftModuleId": 119,
+      "data": {
+        "textScrolling": true,
+        "mappingIndicatorHidden": false,
+        "maps": [
+          {
+            "moduleId": 68,
+            "paramId": 3,
+            "input": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 69,
+            "paramId": 7,
+            "input": 1,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 49,
+            "paramId": 3,
+            "input": 2,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 49,
+            "paramId": 6,
+            "input": 3,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "input": 4,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          }
+        ],
+        "lockParameterChanges": true,
+        "bipolarInput": false,
+        "panelTheme": 0,
+        "audioRate": false,
+        "locked": true,
+        "inputConfig": [
+          {
+            "hideUnused": true,
+            "label": [
+              "hi",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "hideUnused": true,
+            "label": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      "pos": [
+        18,
+        1
+      ]
+    },
+    {
+      "id": 122,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-PolyCon",
+      "params": [
+        {
+          "id": 0,
+          "value": 16.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 117,
+      "rightModuleId": 119,
+      "data": {
+        "range_offset": 0.0,
+        "range_scale": 10.0
+      },
+      "pos": [
+        4,
+        1
+      ]
+    },
+    {
+      "id": 125,
+      "plugin": "Stoermelder-P1",
+      "version": "1.10.0",
+      "model": "EightFaceX2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 126,
+      "data": {
+        "panelTheme": 0,
+        "mode": 1,
+        "pluginSlug": "Bogaudio",
+        "modelSlug": "POLYCON8",
+        "realPluginSlug": "Bogaudio",
+        "realModelSlug": "Bogaudio-PolyCon8",
+        "moduleName": "Bogaudio POLYCON8",
+        "slotCvMode": 2,
+        "preset": 15,
+        "presetCount": 16,
+        "presets": [
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 126,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.624119997
+                },
+                {
+                  "id": 1,
+                  "value": 0.624119997
+                },
+                {
+                  "id": 2,
+                  "value": -0.990999997
+                },
+                {
+                  "id": 3,
+                  "value": -0.129999995
+                },
+                {
+                  "id": 4,
+                  "value": -0.495880008
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 125,
+              "rightModuleId": 127,
+              "data": {
+                "poly_channels": 8,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 126,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.624119997
+                },
+                {
+                  "id": 1,
+                  "value": 0.624119997
+                },
+                {
+                  "id": 2,
+                  "value": 0.156999946
+                },
+                {
+                  "id": 3,
+                  "value": -0.129999995
+                },
+                {
+                  "id": 4,
+                  "value": -0.495880008
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 125,
+              "rightModuleId": 127,
+              "data": {
+                "poly_channels": 8,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 126,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.624119997
+                },
+                {
+                  "id": 1,
+                  "value": 0.624119997
+                },
+                {
+                  "id": 2,
+                  "value": -1.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.239000127
+                },
+                {
+                  "id": 4,
+                  "value": 0.317120016
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 125,
+              "rightModuleId": 127,
+              "data": {
+                "poly_channels": 8,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 126,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.624119997
+                },
+                {
+                  "id": 1,
+                  "value": 0.624119997
+                },
+                {
+                  "id": 2,
+                  "value": 0.179000109
+                },
+                {
+                  "id": 3,
+                  "value": 0.239000127
+                },
+                {
+                  "id": 4,
+                  "value": 0.317120016
+                },
+                {
+                  "id": 5,
+                  "value": 1.0
+                },
+                {
+                  "id": 6,
+                  "value": 1.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 125,
+              "rightModuleId": 127,
+              "data": {
+                "poly_channels": 8,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 126,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.624119997
+                },
+                {
+                  "id": 1,
+                  "value": 0.624119997
+                },
+                {
+                  "id": 2,
+                  "value": -1.0
+                },
+                {
+                  "id": 3,
+                  "value": -0.129999995
+                },
+                {
+                  "id": 4,
+                  "value": -0.495880008
+                },
+                {
+                  "id": 5,
+                  "value": 1.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 1.0
+                }
+              ],
+              "leftModuleId": 125,
+              "rightModuleId": 127,
+              "data": {
+                "poly_channels": 8,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 126,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": -0.996999979
+                },
+                {
+                  "id": 1,
+                  "value": -1.0
+                },
+                {
+                  "id": 2,
+                  "value": -0.990999997
+                },
+                {
+                  "id": 3,
+                  "value": -0.129999995
+                },
+                {
+                  "id": 4,
+                  "value": -0.495880008
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 125,
+              "rightModuleId": 127,
+              "data": {
+                "poly_channels": 8,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          }
+        ]
+      },
+      "pos": [
+        5,
+        2
+      ]
+    },
+    {
+      "id": 126,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-PolyCon8",
+      "params": [
+        {
+          "id": 0,
+          "value": -0.996999979
+        },
+        {
+          "id": 1,
+          "value": -1.0
+        },
+        {
+          "id": 2,
+          "value": -0.990999997
+        },
+        {
+          "id": 3,
+          "value": -0.129999995
+        },
+        {
+          "id": 4,
+          "value": -0.495880008
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 125,
+      "rightModuleId": 127,
+      "data": {
+        "poly_channels": 8,
+        "range_offset": 1.0,
+        "range_scale": 5.0
+      },
+      "pos": [
+        9,
+        2
+      ]
+    },
+    {
+      "id": 127,
+      "plugin": "stocaudio",
+      "version": "1.0.1",
+      "model": "Polyslew",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.899999976
+        },
+        {
+          "id": 3,
+          "value": 0.899999976
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 126,
+      "rightModuleId": 128,
+      "pos": [
+        12,
+        2
+      ]
+    },
+    {
+      "id": 128,
+      "plugin": "Stoermelder-P1",
+      "version": "1.10.0",
+      "model": "CVMap",
+      "params": [],
+      "leftModuleId": 127,
+      "data": {
+        "textScrolling": true,
+        "mappingIndicatorHidden": false,
+        "maps": [
+          {
+            "moduleId": 7,
+            "paramId": 6,
+            "input": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 7,
+            "paramId": 9,
+            "input": 1,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 50,
+            "paramId": 4,
+            "input": 2,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 43,
+            "paramId": 2,
+            "input": 3,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 43,
+            "paramId": 4,
+            "input": 4,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 115,
+            "paramId": 0,
+            "input": 5,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 114,
+            "paramId": 0,
+            "input": 6,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 114,
+            "paramId": 1,
+            "input": 7,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "input": 8,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          }
+        ],
+        "lockParameterChanges": true,
+        "bipolarInput": false,
+        "panelTheme": 0,
+        "audioRate": false,
+        "locked": true,
+        "inputConfig": [
+          {
+            "hideUnused": true,
+            "label": [
+              "hi",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "hideUnused": true,
+            "label": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      "pos": [
+        18,
+        2
+      ]
+    },
+    {
+      "id": 130,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 112,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        82,
+        4
+      ]
+    },
+    {
+      "id": 137,
+      "plugin": "Stoermelder-P1",
+      "version": "1.10.0",
+      "model": "CVMap",
+      "params": [],
+      "leftModuleId": 138,
+      "data": {
+        "textScrolling": true,
+        "mappingIndicatorHidden": false,
+        "maps": [
+          {
+            "moduleId": 49,
+            "paramId": 9,
+            "input": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 89,
+            "paramId": 6,
+            "input": 1,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 89,
+            "paramId": 4,
+            "input": 2,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 89,
+            "paramId": 5,
+            "input": 3,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 89,
+            "paramId": 0,
+            "input": 4,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "input": 5,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          }
+        ],
+        "lockParameterChanges": true,
+        "bipolarInput": false,
+        "panelTheme": 0,
+        "audioRate": false,
+        "locked": true,
+        "inputConfig": [
+          {
+            "hideUnused": true,
+            "label": [
+              "hi",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "hideUnused": true,
+            "label": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      "pos": [
+        18,
+        3
+      ]
+    },
+    {
+      "id": 138,
+      "plugin": "stocaudio",
+      "version": "1.0.1",
+      "model": "Polyslew",
+      "params": [
+        {
+          "id": 0,
+          "value": -1.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.899999976
+        },
+        {
+          "id": 3,
+          "value": 0.899999976
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 139,
+      "rightModuleId": 137,
+      "pos": [
+        12,
+        3
+      ]
+    },
+    {
+      "id": 139,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-PolyCon8",
+      "params": [
+        {
+          "id": 0,
+          "value": -0.996999979
+        },
+        {
+          "id": 1,
+          "value": -0.297999978
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.355000019
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 140,
+      "rightModuleId": 138,
+      "data": {
+        "poly_channels": 8,
+        "range_offset": 1.0,
+        "range_scale": 5.0
+      },
+      "pos": [
+        9,
+        3
+      ]
+    },
+    {
+      "id": 140,
+      "plugin": "Stoermelder-P1",
+      "version": "1.10.0",
+      "model": "EightFaceX2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 139,
+      "data": {
+        "panelTheme": 0,
+        "mode": 1,
+        "pluginSlug": "Bogaudio",
+        "modelSlug": "POLYCON8",
+        "realPluginSlug": "Bogaudio",
+        "realModelSlug": "Bogaudio-PolyCon8",
+        "moduleName": "Bogaudio POLYCON8",
+        "slotCvMode": 2,
+        "preset": 15,
+        "presetCount": 16,
+        "presets": [
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 139,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 1,
+                  "value": -0.297999978
+                },
+                {
+                  "id": 2,
+                  "value": 0.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.355000019
+                },
+                {
+                  "id": 4,
+                  "value": 0.0159375146
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 140,
+              "rightModuleId": 138,
+              "data": {
+                "poly_channels": 8,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 139,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 1,
+                  "value": -1.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.996999979
+                },
+                {
+                  "id": 4,
+                  "value": 0.0161250103
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 140,
+              "rightModuleId": 138,
+              "data": {
+                "poly_channels": 8,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 139,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 1,
+                  "value": 0.235999346
+                },
+                {
+                  "id": 2,
+                  "value": 0.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.234999508
+                },
+                {
+                  "id": 4,
+                  "value": -0.387248576
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 140,
+              "rightModuleId": 138,
+              "data": {
+                "poly_channels": 8,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 139,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 1,
+                  "value": -1.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.996999979
+                },
+                {
+                  "id": 4,
+                  "value": -0.522997677
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 140,
+              "rightModuleId": 138,
+              "data": {
+                "poly_channels": 8,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 139,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 1,
+                  "value": -0.132996827
+                },
+                {
+                  "id": 2,
+                  "value": -0.105000488
+                },
+                {
+                  "id": 3,
+                  "value": 0.588997185
+                },
+                {
+                  "id": 4,
+                  "value": 0.176746026
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 140,
+              "rightModuleId": 138,
+              "data": {
+                "poly_channels": 5,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 139,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 1,
+                  "value": -0.933999538
+                },
+                {
+                  "id": 2,
+                  "value": -0.296439409
+                },
+                {
+                  "id": 3,
+                  "value": 0.676936567
+                },
+                {
+                  "id": 4,
+                  "value": 0.176746026
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 140,
+              "rightModuleId": 138,
+              "data": {
+                "poly_channels": 5,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 139,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 1,
+                  "value": 0.818004191
+                },
+                {
+                  "id": 2,
+                  "value": 0.111560643
+                },
+                {
+                  "id": 3,
+                  "value": 0.0889353007
+                },
+                {
+                  "id": 4,
+                  "value": 0.0447459668
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 140,
+              "rightModuleId": 138,
+              "data": {
+                "poly_channels": 5,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 139,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 1,
+                  "value": 0.58899802
+                },
+                {
+                  "id": 2,
+                  "value": -0.0860007629
+                },
+                {
+                  "id": 3,
+                  "value": 0.0649353117
+                },
+                {
+                  "id": 4,
+                  "value": -0.375253856
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 140,
+              "rightModuleId": 138,
+              "data": {
+                "poly_channels": 5,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 139,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 1,
+                  "value": -0.246997237
+                },
+                {
+                  "id": 2,
+                  "value": 0.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.375999868
+                },
+                {
+                  "id": 4,
+                  "value": 0.311746001
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 140,
+              "rightModuleId": 138,
+              "data": {
+                "poly_channels": 5,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 139,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon8",
+              "params": [
+                {
+                  "id": 0,
+                  "value": -0.996999979
+                },
+                {
+                  "id": 1,
+                  "value": -0.297999978
+                },
+                {
+                  "id": 2,
+                  "value": 0.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.355000019
+                },
+                {
+                  "id": 4,
+                  "value": 0.0
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 140,
+              "rightModuleId": 138,
+              "data": {
+                "poly_channels": 8,
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          }
+        ]
+      },
+      "pos": [
+        5,
+        3
+      ]
+    },
+    {
+      "id": 141,
+      "plugin": "Stoermelder-P1",
+      "version": "1.10.0",
+      "model": "CVMap",
+      "params": [],
+      "leftModuleId": 142,
+      "data": {
+        "textScrolling": true,
+        "mappingIndicatorHidden": false,
+        "maps": [
+          {
+            "moduleId": 84,
+            "paramId": 0,
+            "input": 0,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 84,
+            "paramId": 3,
+            "input": 1,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 84,
+            "paramId": 6,
+            "input": 2,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 84,
+            "paramId": 9,
+            "input": 3,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 148,
+            "paramId": 0,
+            "input": 4,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": 12,
+            "paramId": 4,
+            "input": 5,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          },
+          {
+            "moduleId": -1,
+            "paramId": 0,
+            "input": 6,
+            "slew": 0.0,
+            "min": 0.0,
+            "max": 1.0
+          }
+        ],
+        "lockParameterChanges": true,
+        "bipolarInput": false,
+        "panelTheme": 0,
+        "audioRate": false,
+        "locked": true,
+        "inputConfig": [
+          {
+            "hideUnused": true,
+            "label": [
+              "hi",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "hideUnused": true,
+            "label": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      "pos": [
+        18,
+        4
+      ]
+    },
+    {
+      "id": 142,
+      "plugin": "stocaudio",
+      "version": "1.0.1",
+      "model": "Polyslew",
+      "params": [
+        {
+          "id": 0,
+          "value": -1.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.899999976
+        },
+        {
+          "id": 3,
+          "value": 0.899999976
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 143,
+      "rightModuleId": 141,
+      "pos": [
+        12,
+        4
+      ]
+    },
+    {
+      "id": 143,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-PolyCon",
+      "params": [
+        {
+          "id": 0,
+          "value": 16.0
+        },
+        {
+          "id": 1,
+          "value": -1.0
+        },
+        {
+          "id": 2,
+          "value": -1.0
+        },
+        {
+          "id": 3,
+          "value": -1.0
+        },
+        {
+          "id": 4,
+          "value": -1.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 0.167000055
+        },
+        {
+          "id": 7,
+          "value": -0.116999909
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 144,
+      "rightModuleId": 142,
+      "data": {
+        "range_offset": 1.0,
+        "range_scale": 5.0
+      },
+      "pos": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": 144,
+      "plugin": "Stoermelder-P1",
+      "version": "1.10.0",
+      "model": "EightFaceX2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 143,
+      "data": {
+        "panelTheme": 0,
+        "mode": 1,
+        "pluginSlug": "Bogaudio",
+        "modelSlug": "POLYCON16",
+        "realPluginSlug": "Bogaudio",
+        "realModelSlug": "Bogaudio-PolyCon",
+        "moduleName": "Bogaudio POLYCON16",
+        "slotCvMode": 2,
+        "preset": 15,
+        "presetCount": 16,
+        "presets": [
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 143,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 16.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 2,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 3,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 4,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.167000055
+                },
+                {
+                  "id": 7,
+                  "value": -0.116999909
+                },
+                {
+                  "id": 8,
+                  "value": 0.0
+                },
+                {
+                  "id": 9,
+                  "value": 0.0
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.0
+                },
+                {
+                  "id": 14,
+                  "value": 0.0
+                },
+                {
+                  "id": 15,
+                  "value": 0.0
+                },
+                {
+                  "id": 16,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 144,
+              "rightModuleId": 142,
+              "data": {
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 143,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 16.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 2,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 3,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 4,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 5,
+                  "value": 1.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.167000055
+                },
+                {
+                  "id": 7,
+                  "value": -0.116999909
+                },
+                {
+                  "id": 8,
+                  "value": 0.0
+                },
+                {
+                  "id": 9,
+                  "value": 0.0
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.0
+                },
+                {
+                  "id": 14,
+                  "value": 0.0
+                },
+                {
+                  "id": 15,
+                  "value": 0.0
+                },
+                {
+                  "id": 16,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 144,
+              "rightModuleId": 142,
+              "data": {
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 143,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 16.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 2,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 3,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 4,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": -0.393999994
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                },
+                {
+                  "id": 8,
+                  "value": 0.0
+                },
+                {
+                  "id": 9,
+                  "value": 0.0
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.0
+                },
+                {
+                  "id": 14,
+                  "value": 0.0
+                },
+                {
+                  "id": 15,
+                  "value": 0.0
+                },
+                {
+                  "id": 16,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 144,
+              "rightModuleId": 142,
+              "data": {
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 143,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 16.0
+                },
+                {
+                  "id": 1,
+                  "value": -1.0
+                },
+                {
+                  "id": 2,
+                  "value": -1.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 4,
+                  "value": 0.820000052
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": -0.393999994
+                },
+                {
+                  "id": 7,
+                  "value": 0.0
+                },
+                {
+                  "id": 8,
+                  "value": 0.0
+                },
+                {
+                  "id": 9,
+                  "value": 0.0
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.0
+                },
+                {
+                  "id": 14,
+                  "value": 0.0
+                },
+                {
+                  "id": 15,
+                  "value": 0.0
+                },
+                {
+                  "id": 16,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 144,
+              "rightModuleId": 142,
+              "data": {
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 143,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 16.0
+                },
+                {
+                  "id": 1,
+                  "value": -1.0
+                },
+                {
+                  "id": 2,
+                  "value": -1.0
+                },
+                {
+                  "id": 3,
+                  "value": -1.0
+                },
+                {
+                  "id": 4,
+                  "value": -1.0
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.167000055
+                },
+                {
+                  "id": 7,
+                  "value": -0.116999909
+                },
+                {
+                  "id": 8,
+                  "value": 0.0
+                },
+                {
+                  "id": 9,
+                  "value": 0.0
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.0
+                },
+                {
+                  "id": 14,
+                  "value": 0.0
+                },
+                {
+                  "id": 15,
+                  "value": 0.0
+                },
+                {
+                  "id": 16,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 144,
+              "rightModuleId": 142,
+              "data": {
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 143,
+              "plugin": "Bogaudio",
+              "version": "1.1.37",
+              "model": "Bogaudio-PolyCon",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 16.0
+                },
+                {
+                  "id": 1,
+                  "value": -1.0
+                },
+                {
+                  "id": 2,
+                  "value": -1.0
+                },
+                {
+                  "id": 3,
+                  "value": -1.0
+                },
+                {
+                  "id": 4,
+                  "value": -1.0
+                },
+                {
+                  "id": 5,
+                  "value": 1.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.167000055
+                },
+                {
+                  "id": 7,
+                  "value": -0.116999909
+                },
+                {
+                  "id": 8,
+                  "value": 0.0
+                },
+                {
+                  "id": 9,
+                  "value": 0.0
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.0
+                },
+                {
+                  "id": 14,
+                  "value": 0.0
+                },
+                {
+                  "id": 15,
+                  "value": 0.0
+                },
+                {
+                  "id": 16,
+                  "value": 0.0
+                }
+              ],
+              "leftModuleId": 144,
+              "rightModuleId": 142,
+              "data": {
+                "range_offset": 1.0,
+                "range_scale": 5.0
+              }
+            }
+          }
+        ]
+      },
+      "pos": [
+        0,
+        4
+      ]
+    },
+    {
+      "id": 148,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-Matrix18",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 72,
+      "rightModuleId": 86,
+      "data": {
+        "clipping_mode": 0,
+        "input_gain_db": 0.0,
+        "sum": true,
+        "indicator_knobs": true
+      },
+      "pos": [
+        113,
+        1
+      ]
+    },
+    {
+      "id": 150,
+      "plugin": "Stoermelder-P1",
+      "version": "1.10.0",
+      "model": "EightFaceX2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 69,
+      "rightModuleId": 70,
+      "data": {
+        "panelTheme": 1,
+        "mode": 1,
+        "pluginSlug": "Audible Instruments",
+        "modelSlug": "Random Sampler",
+        "realPluginSlug": "AudibleInstruments",
+        "realModelSlug": "Marbles",
+        "moduleName": "Audible Instruments Random Sampler",
+        "slotCvMode": 2,
+        "preset": 0,
+        "presetCount": 16,
+        "presets": [
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 70,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Marbles",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.68450129
+                },
+                {
+                  "id": 3,
+                  "value": 0.401999772
+                },
+                {
+                  "id": 4,
+                  "value": 0.749001741
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.537001431
+                },
+                {
+                  "id": 8,
+                  "value": 0.5
+                },
+                {
+                  "id": 9,
+                  "value": 0.708002508
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.652502477
+                },
+                {
+                  "id": 14,
+                  "value": 0.873004079
+                }
+              ],
+              "leftModuleId": 150,
+              "rightModuleId": 98,
+              "data": {
+                "t_deja_vu": true,
+                "x_deja_vu": true,
+                "t_mode": 1,
+                "x_mode": 2,
+                "t_range": 0,
+                "x_range": 2,
+                "external": false,
+                "x_scale": 0,
+                "y_divider_index": 8,
+                "x_clock_source_internal": 0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 70,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Marbles",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.68450129
+                },
+                {
+                  "id": 3,
+                  "value": 0.401999772
+                },
+                {
+                  "id": 4,
+                  "value": 0.456500053
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.537001431
+                },
+                {
+                  "id": 8,
+                  "value": 0.5
+                },
+                {
+                  "id": 9,
+                  "value": 0.507002473
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.652502477
+                },
+                {
+                  "id": 14,
+                  "value": 0.519002557
+                }
+              ],
+              "leftModuleId": 150,
+              "rightModuleId": 98,
+              "data": {
+                "t_deja_vu": true,
+                "x_deja_vu": false,
+                "t_mode": 1,
+                "x_mode": 2,
+                "t_range": 0,
+                "x_range": 2,
+                "external": false,
+                "x_scale": 0,
+                "y_divider_index": 8,
+                "x_clock_source_internal": 0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 70,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Marbles",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.68450129
+                },
+                {
+                  "id": 3,
+                  "value": 0.228000551
+                },
+                {
+                  "id": 4,
+                  "value": 0.55850035
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.537001431
+                },
+                {
+                  "id": 8,
+                  "value": 0.5
+                },
+                {
+                  "id": 9,
+                  "value": 0.507002473
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.652502477
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                }
+              ],
+              "leftModuleId": 150,
+              "rightModuleId": 98,
+              "data": {
+                "t_deja_vu": true,
+                "x_deja_vu": false,
+                "t_mode": 1,
+                "x_mode": 2,
+                "t_range": 0,
+                "x_range": 2,
+                "external": false,
+                "x_scale": 0,
+                "y_divider_index": 8,
+                "x_clock_source_internal": 0
+              }
+            }
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          }
+        ]
+      },
+      "pos": [
+        67,
+        1
+      ]
+    },
+    {
+      "id": 151,
+      "plugin": "Stoermelder-P1",
+      "version": "1.10.0",
+      "model": "EightFaceX2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 68,
+      "rightModuleId": 69,
+      "data": {
+        "panelTheme": 1,
+        "mode": 1,
+        "pluginSlug": "Audible Instruments",
+        "modelSlug": "Texture Synthesizer",
+        "realPluginSlug": "AudibleInstruments",
+        "realModelSlug": "Clouds",
+        "moduleName": "Audible Instruments Texture Synthesizer",
+        "slotCvMode": 2,
+        "preset": 0,
+        "presetCount": 16,
+        "presets": [
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 69,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Clouds",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.741501689
+                },
+                {
+                  "id": 4,
+                  "value": 0.627003014
+                },
+                {
+                  "id": 5,
+                  "value": 0.0640049279
+                },
+                {
+                  "id": 6,
+                  "value": 0.5
+                },
+                {
+                  "id": 7,
+                  "value": 0.682000101
+                },
+                {
+                  "id": 8,
+                  "value": 0.814503789
+                },
+                {
+                  "id": 9,
+                  "value": 0.902500749
+                },
+                {
+                  "id": 10,
+                  "value": 0.921999454
+                },
+                {
+                  "id": 11,
+                  "value": 0.478501588
+                },
+                {
+                  "id": 12,
+                  "value": 0.838503301
+                }
+              ],
+              "leftModuleId": 151,
+              "rightModuleId": 150,
+              "data": {
+                "playback": 0,
+                "quality": 0,
+                "blendMode": 2
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 69,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Clouds",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.741501689
+                },
+                {
+                  "id": 4,
+                  "value": 0.627003014
+                },
+                {
+                  "id": 5,
+                  "value": 0.0640049279
+                },
+                {
+                  "id": 6,
+                  "value": 0.5
+                },
+                {
+                  "id": 7,
+                  "value": 1.0
+                },
+                {
+                  "id": 8,
+                  "value": 0.657002687
+                },
+                {
+                  "id": 9,
+                  "value": 0.902500749
+                },
+                {
+                  "id": 10,
+                  "value": 0.921999454
+                },
+                {
+                  "id": 11,
+                  "value": 0.888002336
+                },
+                {
+                  "id": 12,
+                  "value": 0.838503301
+                }
+              ],
+              "leftModuleId": 151,
+              "rightModuleId": 150,
+              "data": {
+                "playback": 0,
+                "quality": 0,
+                "blendMode": 2
+              }
+            }
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 69,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Clouds",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.741501689
+                },
+                {
+                  "id": 4,
+                  "value": 0.627003014
+                },
+                {
+                  "id": 5,
+                  "value": 0.0640049279
+                },
+                {
+                  "id": 6,
+                  "value": 0.5
+                },
+                {
+                  "id": 7,
+                  "value": 0.682000101
+                },
+                {
+                  "id": 8,
+                  "value": 0.231000006
+                },
+                {
+                  "id": 9,
+                  "value": 0.902500749
+                },
+                {
+                  "id": 10,
+                  "value": 0.921999454
+                },
+                {
+                  "id": 11,
+                  "value": 0.478500009
+                },
+                {
+                  "id": 12,
+                  "value": 0.838503301
+                }
+              ],
+              "leftModuleId": 151,
+              "rightModuleId": 150,
+              "data": {
+                "playback": 3,
+                "quality": 0,
+                "blendMode": 2
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 69,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Clouds",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.0
+                },
+                {
+                  "id": 3,
+                  "value": 0.741501689
+                },
+                {
+                  "id": 4,
+                  "value": 0.627003014
+                },
+                {
+                  "id": 5,
+                  "value": 0.0640049279
+                },
+                {
+                  "id": 6,
+                  "value": 0.5
+                },
+                {
+                  "id": 7,
+                  "value": 0.682000101
+                },
+                {
+                  "id": 8,
+                  "value": 0.814503789
+                },
+                {
+                  "id": 9,
+                  "value": 0.902500749
+                },
+                {
+                  "id": 10,
+                  "value": 0.921999454
+                },
+                {
+                  "id": 11,
+                  "value": 0.478501588
+                },
+                {
+                  "id": 12,
+                  "value": 0.838503301
+                }
+              ],
+              "leftModuleId": 151,
+              "rightModuleId": 150,
+              "data": {
+                "playback": 3,
+                "quality": 0,
+                "blendMode": 2
+              }
+            }
+          }
+        ]
+      },
+      "pos": [
+        45,
+        1
+      ]
+    },
+    {
+      "id": 152,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 159,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        77,
+        0
+      ]
+    },
+    {
+      "id": 153,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Split",
+      "params": [],
+      "leftModuleId": 81,
+      "rightModuleId": 155,
+      "pos": [
+        152,
+        3
+      ]
+    },
+    {
+      "id": 154,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Merge",
+      "params": [],
+      "leftModuleId": 14,
+      "rightModuleId": 78,
+      "data": {
+        "channels": -1
+      },
+      "pos": [
+        117,
+        3
+      ]
+    },
+    {
+      "id": 155,
+      "plugin": "CountModula",
+      "version": "1.14.0",
+      "model": "Switch4",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 153,
+      "data": {
+        "moduleVersion": 1,
+        "selection": 0,
+        "theme": 0
+      },
+      "pos": [
+        157,
+        3
+      ]
+    },
+    {
+      "id": 159,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Marbles",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.68450129
+        },
+        {
+          "id": 3,
+          "value": 0.401999772
+        },
+        {
+          "id": 4,
+          "value": 0.749001741
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.537001431
+        },
+        {
+          "id": 8,
+          "value": 0.5
+        },
+        {
+          "id": 9,
+          "value": 0.708002508
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.652502477
+        },
+        {
+          "id": 14,
+          "value": 0.873004079
+        }
+      ],
+      "leftModuleId": 160,
+      "rightModuleId": 152,
+      "data": {
+        "t_deja_vu": true,
+        "x_deja_vu": true,
+        "t_mode": 1,
+        "x_mode": 2,
+        "t_range": 0,
+        "x_range": 2,
+        "external": false,
+        "x_scale": 0,
+        "y_divider_index": 8,
+        "x_clock_source_internal": 0
+      },
+      "pos": [
+        59,
+        0
+      ]
+    },
+    {
+      "id": 160,
+      "plugin": "Stoermelder-P1",
+      "version": "1.10.0",
+      "model": "EightFaceX2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 159,
+      "data": {
+        "panelTheme": 1,
+        "mode": 1,
+        "pluginSlug": "Audible Instruments",
+        "modelSlug": "Random Sampler",
+        "realPluginSlug": "AudibleInstruments",
+        "realModelSlug": "Marbles",
+        "moduleName": "Audible Instruments Random Sampler",
+        "slotCvMode": 2,
+        "preset": 0,
+        "presetCount": 16,
+        "presets": [
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 70,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Marbles",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.68450129
+                },
+                {
+                  "id": 3,
+                  "value": 0.401999772
+                },
+                {
+                  "id": 4,
+                  "value": 0.749001741
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.537001431
+                },
+                {
+                  "id": 8,
+                  "value": 0.5
+                },
+                {
+                  "id": 9,
+                  "value": 0.708002508
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.652502477
+                },
+                {
+                  "id": 14,
+                  "value": 0.873004079
+                }
+              ],
+              "leftModuleId": 150,
+              "rightModuleId": 98,
+              "data": {
+                "t_deja_vu": true,
+                "x_deja_vu": true,
+                "t_mode": 1,
+                "x_mode": 2,
+                "t_range": 0,
+                "x_range": 2,
+                "external": false,
+                "x_scale": 0,
+                "y_divider_index": 8,
+                "x_clock_source_internal": 0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 70,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Marbles",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.68450129
+                },
+                {
+                  "id": 3,
+                  "value": 0.401999772
+                },
+                {
+                  "id": 4,
+                  "value": 0.456500053
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.537001431
+                },
+                {
+                  "id": 8,
+                  "value": 0.5
+                },
+                {
+                  "id": 9,
+                  "value": 0.507002473
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.652502477
+                },
+                {
+                  "id": 14,
+                  "value": 0.519002557
+                }
+              ],
+              "leftModuleId": 150,
+              "rightModuleId": 98,
+              "data": {
+                "t_deja_vu": true,
+                "x_deja_vu": false,
+                "t_mode": 1,
+                "x_mode": 2,
+                "t_range": 0,
+                "x_range": 2,
+                "external": false,
+                "x_scale": 0,
+                "y_divider_index": 8,
+                "x_clock_source_internal": 0
+              }
+            }
+          },
+          {
+            "slotUsed": true,
+            "slot": {
+              "id": 70,
+              "plugin": "AudibleInstruments",
+              "version": "1.5.0",
+              "model": "Marbles",
+              "params": [
+                {
+                  "id": 0,
+                  "value": 0.0
+                },
+                {
+                  "id": 1,
+                  "value": 0.0
+                },
+                {
+                  "id": 2,
+                  "value": 0.68450129
+                },
+                {
+                  "id": 3,
+                  "value": 0.228000551
+                },
+                {
+                  "id": 4,
+                  "value": 0.55850035
+                },
+                {
+                  "id": 5,
+                  "value": 0.0
+                },
+                {
+                  "id": 6,
+                  "value": 0.0
+                },
+                {
+                  "id": 7,
+                  "value": 0.537001431
+                },
+                {
+                  "id": 8,
+                  "value": 0.5
+                },
+                {
+                  "id": 9,
+                  "value": 0.507002473
+                },
+                {
+                  "id": 10,
+                  "value": 0.0
+                },
+                {
+                  "id": 11,
+                  "value": 0.0
+                },
+                {
+                  "id": 12,
+                  "value": 0.0
+                },
+                {
+                  "id": 13,
+                  "value": 0.652502477
+                },
+                {
+                  "id": 14,
+                  "value": 0.5
+                }
+              ],
+              "leftModuleId": 150,
+              "rightModuleId": 98,
+              "data": {
+                "t_deja_vu": true,
+                "x_deja_vu": false,
+                "t_mode": 1,
+                "x_mode": 2,
+                "t_range": 0,
+                "x_range": 2,
+                "external": false,
+                "x_scale": 0,
+                "y_divider_index": 8,
+                "x_clock_source_internal": 0
+              }
+            }
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          },
+          {
+            "slotUsed": false
+          }
+        ]
+      },
+      "pos": [
+        55,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 24,
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 13,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 63,
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 30,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 83,
+      "outputModuleId": 30,
+      "outputId": 0,
+      "inputModuleId": 35,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 84,
+      "outputModuleId": 30,
+      "outputId": 0,
+      "inputModuleId": 35,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 87,
+      "outputModuleId": 25,
+      "outputId": 2,
+      "inputModuleId": 13,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 92,
+      "outputModuleId": 13,
+      "outputId": 0,
+      "inputModuleId": 12,
+      "inputId": 5,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 94,
+      "outputModuleId": 35,
+      "outputId": 1,
+      "inputModuleId": 7,
+      "inputId": 5,
+      "color": "#0986ad"
+    },
+    {
+      "id": 95,
+      "outputModuleId": 35,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 108,
+      "outputModuleId": 46,
+      "outputId": 0,
+      "inputModuleId": 43,
+      "inputId": 5,
+      "color": "#c91847"
+    },
+    {
+      "id": 148,
+      "outputModuleId": 25,
+      "outputId": 4,
+      "inputModuleId": 48,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 114,
+      "outputModuleId": 44,
+      "outputId": 0,
+      "inputModuleId": 43,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 152,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 44,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 156,
+      "outputModuleId": 49,
+      "outputId": 1,
+      "inputModuleId": 0,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 157,
+      "outputModuleId": 44,
+      "outputId": 0,
+      "inputModuleId": 43,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 162,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 43,
+      "inputId": 6,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 155,
+      "outputModuleId": 49,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 135,
+      "outputModuleId": 43,
+      "outputId": 1,
+      "inputModuleId": 57,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 121,
+      "outputModuleId": 43,
+      "outputId": 0,
+      "inputModuleId": 57,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 198,
+      "outputModuleId": 57,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 8,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 240,
+      "outputModuleId": 68,
+      "outputId": 0,
+      "inputModuleId": 69,
+      "inputId": 6,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 241,
+      "outputModuleId": 68,
+      "outputId": 0,
+      "inputModuleId": 69,
+      "inputId": 7,
+      "color": "#c91847"
+    },
+    {
+      "id": 245,
+      "outputModuleId": 70,
+      "outputId": 0,
+      "inputModuleId": 69,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 257,
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 258,
+      "outputModuleId": 7,
+      "outputId": 1,
+      "inputModuleId": 0,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 199,
+      "outputModuleId": 57,
+      "outputId": 1,
+      "inputModuleId": 7,
+      "inputId": 11,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 280,
+      "outputModuleId": 78,
+      "outputId": 0,
+      "inputModuleId": 84,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 281,
+      "outputModuleId": 78,
+      "outputId": 1,
+      "inputModuleId": 84,
+      "inputId": 5,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 268,
+      "outputModuleId": 77,
+      "outputId": 0,
+      "inputModuleId": 78,
+      "inputId": 5,
+      "color": "#0986ad"
+    },
+    {
+      "id": 276,
+      "outputModuleId": 77,
+      "outputId": 1,
+      "inputModuleId": 78,
+      "inputId": 6,
+      "color": "#0986ad"
+    },
+    {
+      "id": 275,
+      "outputModuleId": 83,
+      "outputId": 0,
+      "inputModuleId": 84,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 282,
+      "outputModuleId": 83,
+      "outputId": 0,
+      "inputModuleId": 84,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 197,
+      "outputModuleId": 44,
+      "outputId": 0,
+      "inputModuleId": 35,
+      "inputId": 10,
+      "color": "#0986ad"
+    },
+    {
+      "id": 303,
+      "outputModuleId": 86,
+      "outputId": 0,
+      "inputModuleId": 84,
+      "inputId": 8,
+      "color": "#c91847"
+    },
+    {
+      "id": 386,
+      "outputModuleId": 44,
+      "outputId": 0,
+      "inputModuleId": 95,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 304,
+      "outputModuleId": 86,
+      "outputId": 1,
+      "inputModuleId": 84,
+      "inputId": 11,
+      "color": "#0986ad"
+    },
+    {
+      "id": 399,
+      "outputModuleId": 95,
+      "outputId": 0,
+      "inputModuleId": 49,
+      "inputId": 10,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 400,
+      "outputModuleId": 50,
+      "outputId": 0,
+      "inputModuleId": 98,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 404,
+      "outputModuleId": 98,
+      "outputId": 0,
+      "inputModuleId": 14,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 398,
+      "outputModuleId": 79,
+      "outputId": 3,
+      "inputModuleId": 97,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 391,
+      "outputModuleId": 92,
+      "outputId": 0,
+      "inputModuleId": 79,
+      "inputId": 5,
+      "color": "#c91847"
+    },
+    {
+      "id": 355,
+      "outputModuleId": 30,
+      "outputId": 0,
+      "inputModuleId": 92,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 298,
+      "outputModuleId": 30,
+      "outputId": 0,
+      "inputModuleId": 86,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 297,
+      "outputModuleId": 30,
+      "outputId": 0,
+      "inputModuleId": 86,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 243,
+      "outputModuleId": 69,
+      "outputId": 1,
+      "inputModuleId": 49,
+      "inputId": 8,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 242,
+      "outputModuleId": 69,
+      "outputId": 0,
+      "inputModuleId": 49,
+      "inputId": 5,
+      "color": "#0986ad"
+    },
+    {
+      "id": 277,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 49,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 419,
+      "outputModuleId": 97,
+      "outputId": 1,
+      "inputModuleId": 49,
+      "inputId": 11,
+      "color": "#c91847"
+    },
+    {
+      "id": 279,
+      "outputModuleId": 84,
+      "outputId": 1,
+      "inputModuleId": 0,
+      "inputId": 7,
+      "color": "#0986ad"
+    },
+    {
+      "id": 278,
+      "outputModuleId": 84,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 6,
+      "color": "#c91847"
+    },
+    {
+      "id": 392,
+      "outputModuleId": 89,
+      "outputId": 1,
+      "inputModuleId": 79,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 427,
+      "outputModuleId": 50,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 7,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 428,
+      "outputModuleId": 50,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 10,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 244,
+      "outputModuleId": 70,
+      "outputId": 6,
+      "inputModuleId": 69,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 430,
+      "outputModuleId": 119,
+      "outputId": 0,
+      "inputModuleId": 120,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 437,
+      "outputModuleId": 122,
+      "outputId": 0,
+      "inputModuleId": 119,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 441,
+      "outputModuleId": 127,
+      "outputId": 0,
+      "inputModuleId": 128,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 426,
+      "outputModuleId": 110,
+      "outputId": 8,
+      "inputModuleId": 114,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 444,
+      "outputModuleId": 114,
+      "outputId": 0,
+      "inputModuleId": 112,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 445,
+      "outputModuleId": 110,
+      "outputId": 9,
+      "inputModuleId": 114,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 451,
+      "outputModuleId": 112,
+      "outputId": 1,
+      "inputModuleId": 115,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 442,
+      "outputModuleId": 126,
+      "outputId": 0,
+      "inputModuleId": 127,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 452,
+      "outputModuleId": 115,
+      "outputId": 0,
+      "inputModuleId": 57,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 454,
+      "outputModuleId": 139,
+      "outputId": 0,
+      "inputModuleId": 138,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 455,
+      "outputModuleId": 138,
+      "outputId": 0,
+      "inputModuleId": 137,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 456,
+      "outputModuleId": 95,
+      "outputId": 0,
+      "inputModuleId": 130,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 463,
+      "outputModuleId": 44,
+      "outputId": 0,
+      "inputModuleId": 112,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 464,
+      "outputModuleId": 95,
+      "outputId": 0,
+      "inputModuleId": 49,
+      "inputId": 7,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 460,
+      "outputModuleId": 95,
+      "outputId": 0,
+      "inputModuleId": 49,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 465,
+      "outputModuleId": 143,
+      "outputId": 0,
+      "inputModuleId": 142,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 466,
+      "outputModuleId": 142,
+      "outputId": 0,
+      "inputModuleId": 141,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 380,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 148,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 411,
+      "outputModuleId": 30,
+      "outputId": 0,
+      "inputModuleId": 92,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 470,
+      "outputModuleId": 50,
+      "outputId": 0,
+      "inputModuleId": 14,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 471,
+      "outputModuleId": 70,
+      "outputId": 6,
+      "inputModuleId": 152,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 285,
+      "outputModuleId": 25,
+      "outputId": 4,
+      "inputModuleId": 77,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 450,
+      "outputModuleId": 115,
+      "outputId": 0,
+      "inputModuleId": 130,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 410,
+      "outputModuleId": 148,
+      "outputId": 0,
+      "inputModuleId": 30,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 481,
+      "outputModuleId": 154,
+      "outputId": 0,
+      "inputModuleId": 81,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 274,
+      "outputModuleId": 81,
+      "outputId": 0,
+      "inputModuleId": 153,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 483,
+      "outputModuleId": 155,
+      "outputId": 0,
+      "inputModuleId": 83,
+      "inputId": 4,
+      "color": "#c91847"
+    },
+    {
+      "id": 487,
+      "outputModuleId": 153,
+      "outputId": 0,
+      "inputModuleId": 155,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 492,
+      "outputModuleId": 153,
+      "outputId": 1,
+      "inputModuleId": 155,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 489,
+      "outputModuleId": 153,
+      "outputId": 3,
+      "inputModuleId": 155,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 480,
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 154,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 479,
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 154,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 478,
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 154,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 477,
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 154,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 476,
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 154,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 495,
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 154,
+      "inputId": 5,
+      "color": "#0986ad"
+    },
+    {
+      "id": 490,
+      "outputModuleId": 153,
+      "outputId": 4,
+      "inputModuleId": 155,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 536,
+      "outputModuleId": 25,
+      "outputId": 3,
+      "inputModuleId": 12,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 537,
+      "outputModuleId": 70,
+      "outputId": 4,
+      "inputModuleId": 12,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 539,
+      "outputModuleId": 70,
+      "outputId": 4,
+      "inputModuleId": 152,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 541,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 77,
+      "inputId": 6,
+      "color": "#c91847"
+    }
+  ]
+}

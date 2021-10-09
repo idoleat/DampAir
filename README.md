@@ -1,5 +1,5 @@
 # Thick Air MKII - DampAir
-(If you need English version please open an issue for it. I'm just too lazy....) 
+(If you need English version please open an issue for it. I'm just too lazy....)
 MKI 是在阿尼馬聽到的。那是一個大大螢幕和排成 L 型方方椅子們。一個人在向另一個人解釋厚重的空氣是什麼聲音，那是將各種聲音堆疊、壓縮、再堆疊，電吉他、合成器、背景噪音放大。整體呈現上也不只是把各種聲音來源做處理，還可以感受到狀態的流動，配合影像參雜些微節奏感，力道有輕有重，是具有敘事性的。
 This is, Thick Air.
 那是我最喜歡的展間。
@@ -175,7 +175,9 @@ stage5 standby 切倒數第二
 * 先切 3 和 not so mad 和 WTFM ,20s
 * 慢慢加 texture 到 75％ 然後 FM mad, 20s
 * FM snap3 和 color 接 x1, 20s
-* not so mad 和 WTFM snap2，x3 接到 Source 的 FM (vco可能也可以)上，慢慢縮 blend/rate/texture
+* not so mad 和 WTFM snap2，x3 接到 Source 的 FM (vco可能也可以)上，慢慢縮 blend/rate/texture，range 縮到黃色燈
+
+操作上有點間隔沒關係，夾雜一點 clouds 的多元性
 
 ## 參考
 [Rabih Beaini Boiler Room](https://www.youtube.com/watch?v=DEl99zg6SIE)
