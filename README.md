@@ -1,10 +1,10 @@
 # Thick Air MKII - DampAir
-(If you need English version please open an issue for it. I'm just too lazy....)
-MKI 是在阿尼馬聽到的。那是一個大大螢幕和排成 L 型方方椅子們。一個人在向另一個人解釋厚重的空氣是什麼聲音，那是將各種聲音堆疊、壓縮、再堆疊，電吉他、合成器、背景噪音放大。整體呈現上也不只是把各種聲音來源做處理，還可以感受到狀態的流動，配合影像參雜些微節奏感，力道有輕有重，是具有敘事性的。
-This is, Thick Air.
-那是我最喜歡的展間。
-[source 1](https://vimeo.com/401414319)
-[source 2](https://www.instagram.com/p/CHxvo80IQx-/)
+(If you need English version please open an issue for it. I'm just too lazy....)  
+MKI 是在阿尼馬聽到的。那是一個大大螢幕和排成 L 型方方椅子們。一個人在向另一個人解釋厚重的空氣是什麼聲音，那是將各種聲音堆疊、壓縮、再堆疊，電吉他、合成器、背景噪音放大。整體呈現上也不只是把各種聲音來源做處理，還可以感受到狀態的流動，配合影像參雜些微節奏感，力道有輕有重，是具有敘事性的。  
+This is, Thick Air.  
+那是我最喜歡的展間。  
+[source 1](https://vimeo.com/401414319)  
+[source 2](https://www.instagram.com/p/CHxvo80IQx-/)  
 
 ## 素材
 * 台北捷運
@@ -13,26 +13,26 @@ This is, Thick Air.
 
 
 ## 概念
-他會是描述性的，但是不會從頭到尾都一樣
-live coding?
-VCV?(including pd)
-Bespoke
+他會是描述性的，但是不會從頭到尾都一樣 
+live coding?  
+VCV?(including pd)  
+Bespoke  
 
 
-LFO the LFO
-FuriaSeries
-filter feq sweep 配 envelop 可以製造節奏敢
-Ambient 開頭
-中間混超高速日系和EUROBEAT
+LFO the LFO  
+FuriaSeries  
+filter feq sweep 配 envelop 可以製造節奏敢  
+Ambient 開頭  
+中間混超高速日系和EUROBEAT  
 
-混合廢墟風格、日常生活、嘈雜、和一些不正經的元素
-濃厚、壓抑的嘈雜聲響，黏著、細碎顆粒、大珠小珠、雨滴
-陽光正向一點結尾
-多試試看一些高速 LFO
-快速 pan，顆粒 pan
-音量迅速on/off顫抖good
-海
-一點點 musical
+混合廢墟風格、日常生活、嘈雜、和一些不正經的元素  
+濃厚、壓抑的嘈雜聲響，黏著、細碎顆粒、大珠小珠、雨滴  
+陽光正向一點結尾  
+多試試看一些高速 LFO  
+快速 pan，顆粒 pan  
+音量迅速on/off顫抖good  
+海  
+一點點 musical  
 
 1. Granular Reverb
 2. 車站
@@ -41,9 +41,9 @@ Ambient 開頭
 5. 碎拍
 6. 乾淨緩和結尾(天亮了)
 
-有點單薄，需要更多層次
-師：厚的東西很容易無聊，所以要有東西流動把觀眾吸進去
-（really? I think it depends....）
+有點單薄，需要更多層次  
+師：厚的東西很容易無聊，所以要有東西流動把觀眾吸進去  
+（really? I think it depends....）  
 
 ## Layout version 1
 
@@ -180,14 +180,14 @@ stage5 standby 切倒數第二
 操作上有點間隔沒關係，夾雜一點 clouds 的多元性
 
 ## 參考
-[Rabih Beaini Boiler Room](https://www.youtube.com/watch?v=DEl99zg6SIE)
-[Oneohtrix Point Never – Returnal](https://open.spotify.com/playlist/3yrRC8NTXZkI24fTVDLy1E?si=de17322b5b434068)
-[落差草原 @ 文博](https://www.instagram.com/prairiewwww/)
-[MADZINE Live Modular Solo Set](https://www.youtube.com/watch?v=5-2sjphTtGQ)
-我在柏林的變速鼓點
-[Feel Good (TV=OFF)](https://www.youtube.com/watch?v=6Cw3rFbkucY)
-[赤地](https://www.youtube.com/watch?v=Zg_huKvBWPc)
-[ref1](https://twitter.com/williamfieldsy/status/1401907633951543300)
-[ref2](https://twitter.com/williamfieldsy/status/1399364991950667776)
-[Less musical](https://www.youtube.com/watch?v=ibdYID54Zjs&list=PL7ytSr9XESxDAZoz8hrcws-BHatViLU3s&index=36)
-https://hackmd.io/05798qnfT6e9RdskXGXwuA
+[Rabih Beaini Boiler Room](https://www.youtube.com/watch?v=DEl99zg6SIE)  
+[Oneohtrix Point Never – Returnal](https://open.spotify.com/playlist/3yrRC8NTXZkI24fTVDLy1E?si=de17322b5b434068)  
+[落差草原 @ 文博](https://www.instagram.com/prairiewwww/)  
+[MADZINE Live Modular Solo Set](https://www.youtube.com/watch?v=5-2sjphTtGQ)  
+我在柏林的變速鼓點  
+[Feel Good (TV=OFF)](https://www.youtube.com/watch?v=6Cw3rFbkucY)  
+[赤地](https://www.youtube.com/watch?v=Zg_huKvBWPc)  
+[ref1](https://twitter.com/williamfieldsy/status/1401907633951543300)  
+[ref2](https://twitter.com/williamfieldsy/status/1399364991950667776)  
+[Less musical](https://www.youtube.com/watch?v=ibdYID54Zjs&list=PL7ytSr9XESxDAZoz8hrcws-BHatViLU3s&index=36)  
+https://hackmd.io/05798qnfT6e9RdskXGXwuA  
